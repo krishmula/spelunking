@@ -1,0 +1,5 @@
+{"i": 0, "context": 8192, "tokens": 256, "ttft_ms": 14531.7, "wall_ms_per_step": 45.539, "gpu_busy": 0.7542, "gpu_ms_per_step": 34.344, "idle_ms_per_step": 11.195, "other_gpu_pct": 24.58, "flagged": true}
+{"i": 1, "context": 2048, "tokens": 256, "ttft_ms": 2999.4, "wall_ms_per_step": 35.804, "gpu_busy": 0.7715, "gpu_ms_per_step": 27.623, "idle_ms_per_step": 8.182, "other_gpu_pct": 22.89, "flagged": true}
+{"i": 2, "context": 1024, "tokens": 256, "ttft_ms": 1392.5, "wall_ms_per_step": 32.677, "gpu_busy": 0.7793, "gpu_ms_per_step": 25.467, "idle_ms_per_step": 7.211, "other_gpu_pct": 22.09, "flagged": true}
+{"i": 3, "context": 128, "tokens": 256, "ttft_ms": 173.3, "wall_ms_per_step": 29.044, "gpu_busy": 0.7795, "gpu_ms_per_step": 22.641, "idle_ms_per_step": 6.403, "other_gpu_pct": 22.02, "flagged": true}
+{"i": 4, "context": 4096, "tokens": 256, "ttft_ms": 6676.3, "wall_ms_per_step": 37.861, "gpu_busy": 0.7567, "gpu_ms_per_step": 28.651, "idle_ms_per_step": 9.21, "other_gpu_pct": 24.31, "flagged": true}

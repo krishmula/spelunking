@@ -1,0 +1,47 @@
+{
+  "files": {
+    ".audit/e02-implementation/synthesis.md": "8743f8b392898eeb8e37e41481bb9e94adf63c74aeea9f0668537f2ebd36eb23",
+    ".audit/e02-implementation/verification-contract.md": "3199910d1f7fb6febf46e4166e8bcf42716947e24a0ed04da54d6c13ef3439f0",
+    "experiments/E02-preemption-rehit/README.md": "5372560263781c3a3c9a6c8f01843ff4478395faafc77a42b241edc0478c35b0",
+    "experiments/E02-preemption-rehit/e02/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/E02-preemption-rehit/e02/__main__.py": "48c99ac57bab576a2a8c1c4ccf246fc8f5faf9ec568a6afb519c0c0850bd4e29",
+    "experiments/E02-preemption-rehit/e02/corpus.py": "ce5a11dac6cd4a7d5bc4fe936047c55c04717dd0156cd99c723a5fa940e93bf4",
+    "experiments/E02-preemption-rehit/e02/events.py": "6d63a32392d1aa2891a8b82c025fb7ecda247683ae886a4803d5fa7111ba8798",
+    "experiments/E02-preemption-rehit/e02/history.py": "4b4c87cb072b193210a2488945ac599b8d66acf7f7d8d88294f7dec8e7cd8add",
+    "experiments/E02-preemption-rehit/e02/observer.py": "1aade1b751c694aa3afd3118408ca7460e9c176483c2204406ed866fc382a620",
+    "experiments/E02-preemption-rehit/e02/report.py": "abb473d834036aae85bf5b8369f5eab78dadbd6bd8bfbd5f2b2758ff243d5396",
+    "experiments/E02-preemption-rehit/e02/sweep.py": "d17628443c5bcca311a6a3225bcd8c45ebdbd1b5e365b2ac3058bf52a69bf219",
+    "experiments/E02-preemption-rehit/tests/conftest.py": "ae286d1a480ce5ae0a4af55cd2af2f425faab130f6ee28501d23d1a81c797237",
+    "experiments/E02-preemption-rehit/tests/engine_fixture.py": "0fe6a0be6eca3a2be7adb976ea941a43426139223a3929b702a784ad5e080f7f",
+    "experiments/E02-preemption-rehit/tests/pilot_fixture.py": "ce25fcedcaa03416491dc68895e5dc816841f9997f156d53112c02b3e2ab1fda",
+    "experiments/E02-preemption-rehit/tests/scenarios.py": "59e74ca246b75756a081cf484485828595432f870ee3c53cfd5ac1e29679097c",
+    "experiments/E02-preemption-rehit/tests/test_corpus.py": "e250050b85205f5c2c472a9b5a309f2e31a0cb7ec71ebd606798b9b1e1e9f782",
+    "experiments/E02-preemption-rehit/tests/test_evidence.py": "61a9144f3d80b2f6fe4a4892dc00c86c39b6b813805b316f97e21b5b61652c81",
+    "experiments/E02-preemption-rehit/tests/test_finalization.py": "4857dcb2cb2199492eb0f9853db140d9b0ec066bd48a8862fb89a450e2e0897d",
+    "experiments/E02-preemption-rehit/tests/test_history_metrics.py": "e7289667366c83c0ccea49a9052142c98d19f4eb588eef66f5fe63b106cf531c",
+    "experiments/E02-preemption-rehit/tests/test_integrity.py": "60d03fee9daca6023344aaeb7e3d161f8984133c36040a50b0b5d77e77f1edaf",
+    "experiments/E02-preemption-rehit/tests/test_lifecycle.py": "43cb77c75f03ddd02d2f2802ebb855faa0cc564fe602ec33da97cde4db955c03",
+    "experiments/E02-preemption-rehit/tests/test_replay.py": "24a44b6eab79512cf87db36ebe6120bd375343aa91399f7d8efc4965fd4ed685",
+    "experiments/E02-preemption-rehit/tests/test_report.py": "8c728118bd60e8cc5c3c49fdaf60ae7bdfaaa72d84f7a0e7f256459931143667",
+    "experiments/E02-preemption-rehit/tests/test_sweep.py": "8e936a1597921c68cf035d59a4740d8c594679846104831dd4177de8dadab769",
+    "experiments/E02-preemption-rehit/tests/test_twin.py": "de6a93fe05b83a76e27bff08d34ba7604c031f6b8dfc90bedc218f097f376b7f"
+  },
+  "preserved": {
+    "experiments/E02-preemption-rehit/e02_scheduler.py": {
+      "actual": "7b4b6772b2c96f9de7d44e813086a47eeb3ad0283df2c4735cfceb03881fe4ec",
+      "expected": "7b4b6772b2c96f9de7d44e813086a47eeb3ad0283df2c4735cfceb03881fe4ec"
+    },
+    "experiments/E02-preemption-rehit/historical-plan.md": {
+      "actual": "3608fa4385207d741e5c24cc06af0d2aece1931552439b4325fb8e27d437e70e",
+      "expected": "3608fa4385207d741e5c24cc06af0d2aece1931552439b4325fb8e27d437e70e"
+    },
+    "experiments/E02-preemption-rehit/run_experiment.py": {
+      "actual": "807c716ef656db34da1c89d42195f846a77469765b564f52dbc9c63978e2df22",
+      "expected": "807c716ef656db34da1c89d42195f846a77469765b564f52dbc9c63978e2df22"
+    }
+  },
+  "technical_fingerprint": "1113fd5cc5c2cd35575fbca020e83100fbcd1456cd24f7892e6058e97d5a9c24",
+  "technical_record": "experiments/E02-preemption-rehit/technical/20261020-151512/result.json",
+  "technical_record_sha256": "1d8d54c875f51f32c3c6ee4ed70268cb37f0836cbb5a683b7a522fe34f58b4c2",
+  "time": "2026-10-20T15:16:25-07:00"
+}

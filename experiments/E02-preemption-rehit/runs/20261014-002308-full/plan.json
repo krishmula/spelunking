@@ -1,0 +1,36 @@
+{
+ "configs": [
+  [
+   "b8-cap2k",
+   8,
+   2048,
+   64,
+   70
+  ],
+  [
+   "b16-cap2k",
+   16,
+   2048,
+   64,
+   70
+  ],
+  [
+   "b8-cap4k",
+   8,
+   4096,
+   64,
+   75
+  ],
+  [
+   "b16-cap4k",
+   16,
+   4096,
+   64,
+   75
+  ]
+ ],
+ "warnings": [
+  "other apps are using 8.7% of the GPU at start: {'WindowServer(424)': 7.08, 'T3 Code (Nightly(25633)': 1.59}"
+ ],
+ "pool_tokens": 12400
+}

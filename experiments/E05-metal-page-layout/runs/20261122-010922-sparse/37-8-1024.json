@@ -1,0 +1,302 @@
+{
+  "seed": 37,
+  "batch": 8,
+  "length": 1024,
+  "rounds": [
+    {
+      "attention_us": {
+        "shuffled": 713.3984375,
+        "control": 695.583375,
+        "clustered": 689.1484375,
+        "contiguous": 687.841125
+      },
+      "repack_us": {
+        "clustered": 971.625,
+        "shuffled": 794.5
+      }
+    },
+    {
+      "attention_us": {
+        "shuffled": 700.559875,
+        "control": 704.020875,
+        "contiguous": 697.2760625,
+        "clustered": 700.16925
+      },
+      "repack_us": {
+        "clustered": 761.917,
+        "shuffled": 746.625
+      }
+    },
+    {
+      "attention_us": {
+        "control": 695.578125,
+        "shuffled": 706.513,
+        "contiguous": 685.239625,
+        "clustered": 695.497375
+      },
+      "repack_us": {
+        "clustered": 757.291,
+        "shuffled": 776.625
+      }
+    },
+    {
+      "attention_us": {
+        "clustered": 695.8020625,
+        "shuffled": 698.2890625,
+        "contiguous": 695.515625,
+        "control": 687.0755625
+      },
+      "repack_us": {
+        "clustered": 736.5,
+        "shuffled": 780.0
+      }
+    },
+    {
+      "attention_us": {
+        "shuffled": 691.0625,
+        "clustered": 685.747375,
+        "contiguous": 690.16925,
+        "control": 692.0234375
+      },
+      "repack_us": {
+        "clustered": 778.917,
+        "shuffled": 792.0
+      }
+    },
+    {
+      "attention_us": {
+        "clustered": 691.0755,
+        "shuffled": 698.796875,
+        "control": 696.64325,
+        "contiguous": 688.7213125
+      },
+      "repack_us": {
+        "clustered": 796.875,
+        "shuffled": 782.416
+      }
+    },
+    {
+      "attention_us": {
+        "shuffled": 692.984375,
+        "control": 694.8385625,
+        "clustered": 692.3541875,
+        "contiguous": 696.8046875
+      },
+      "repack_us": {
+        "clustered": 720.25,
+        "shuffled": 788.416
+      }
+    },
+    {
+      "attention_us": {
+        "contiguous": 701.510375,
+        "clustered": 693.33075,
+        "control": 699.997375,
+        "shuffled": 688.60675
+      },
+      "repack_us": {
+        "shuffled": 754.625,
+        "clustered": 780.083
+      }
+    },
+    {
+      "attention_us": {
+        "contiguous": 696.60675,
+        "control": 688.484375,
+        "clustered": 702.7578125,
+        "shuffled": 707.3176875
+      },
+      "repack_us": {
+        "shuffled": 779.375,
+        "clustered": 742.875
+      }
+    },
+    {
+      "attention_us": {
+        "contiguous": 701.0181875,
+        "clustered": 703.4036875,
+        "shuffled": 697.03125,
+        "control": 690.7578125
+      },
+      "repack_us": {
+        "clustered": 771.834,
+        "shuffled": 820.334
+      }
+    },
+    {
+      "attention_us": {
+        "shuffled": 699.86975,
+        "control": 684.9270625,
+        "clustered": 687.3125,
+        "contiguous": 700.65625
+      },
+      "repack_us": {
+        "clustered": 725.125,
+        "shuffled": 749.042
+      }
+    },
+    {
+      "attention_us": {
+        "contiguous": 693.9791875,
+        "control": 695.1328125,
+        "clustered": 692.5,
+        "shuffled": 700.5520625
+      },
+      "repack_us": {
+        "shuffled": 736.917,
+        "clustered": 793.125
+      }
+    },
+    {
+      "attention_us": {
+        "contiguous": 683.721375,
+        "clustered": 697.93225,
+        "shuffled": 704.1041875,
+        "control": 697.1770625
+      },
+      "repack_us": {
+        "clustered": 749.708,
+        "shuffled": 767.0
+      }
+    },
+    {
+      "attention_us": {
+        "control": 701.453125,
+        "shuffled": 728.822875,
+        "clustered": 691.1926875,
+        "contiguous": 689.971375
+      },
+      "repack_us": {
+        "shuffled": 754.0,
+        "clustered": 746.292
+      }
+    },
+    {
+      "attention_us": {
+        "clustered": 694.112,
+        "control": 699.9140625,
+        "shuffled": 700.153625,
+        "contiguous": 681.2708125
+      },
+      "repack_us": {
+        "clustered": 718.25,
+        "shuffled": 802.334
+      }
+    },
+    {
+      "attention_us": {
+        "contiguous": 686.9010625,
+        "clustered": 690.4166875,
+        "control": 691.5078125,
+        "shuffled": 702.3515625
+      },
+      "repack_us": {
+        "clustered": 727.25,
+        "shuffled": 788.417
+      }
+    },
+    {
+      "attention_us": {
+        "control": 694.0365,
+        "clustered": 689.125,
+        "contiguous": 689.7760625,
+        "shuffled": 696.934875
+      },
+      "repack_us": {
+        "clustered": 750.667,
+        "shuffled": 790.125
+      }
+    },
+    {
+      "attention_us": {
+        "control": 689.260375,
+        "clustered": 686.3359375,
+        "shuffled": 693.86975,
+        "contiguous": 697.002625
+      },
+      "repack_us": {
+        "shuffled": 747.417,
+        "clustered": 845.375
+      }
+    },
+    {
+      "attention_us": {
+        "clustered": 693.8854375,
+        "contiguous": 698.6145625,
+        "shuffled": 689.8229375,
+        "control": 697.3385
+      },
+      "repack_us": {
+        "clustered": 753.583,
+        "shuffled": 786.041
+      }
+    },
+    {
+      "attention_us": {
+        "contiguous": 689.135375,
+        "clustered": 690.6953125,
+        "shuffled": 688.4114375,
+        "control": 694.64325
+      },
+      "repack_us": {
+        "shuffled": 714.958,
+        "clustered": 750.833
+      }
+    },
+    {
+      "attention_us": {
+        "shuffled": 710.377625,
+        "control": 692.6796875,
+        "clustered": 686.9375,
+        "contiguous": 703.9921875
+      },
+      "repack_us": {
+        "clustered": 756.875,
+        "shuffled": 750.791
+      }
+    }
+  ],
+  "summary": {
+    "contiguous": {
+      "us": 693.9791875,
+      "limits": [
+        681.2708125,
+        703.9921875
+      ],
+      "saving_us": 0.0,
+      "repack_us": null,
+      "steps": null
+    },
+    "control": {
+      "us": 694.8385625,
+      "limits": [
+        684.9270625,
+        704.020875
+      ],
+      "saving_us": 1.8541874999999663,
+      "repack_us": null,
+      "steps": null
+    },
+    "clustered": {
+      "us": 692.3541875,
+      "limits": [
+        685.747375,
+        703.4036875
+      ],
+      "saving_us": 1.2213125000000673,
+      "repack_us": 753.583,
+      "steps": null
+    },
+    "shuffled": {
+      "us": 699.86975,
+      "limits": [
+        688.4114375,
+        728.822875
+      ],
+      "saving_us": 6.385437499999966,
+      "repack_us": 779.375,
+      "steps": null
+    }
+  },
+  "control_noise_us": 13.455687500000067
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>E02 report 20261020-140632-pilot-behavior</title><style>
+body{font-family:system-ui,sans-serif;margin:1.5em;color:#222}
+table{border-collapse:collapse;margin:.5em 0 1.2em;font-size:13px}
+th,td{border:1px solid #ccc;padding:2px 6px;text-align:right;vertical-align:top}
+th{background:#f2f2f2;position:sticky;top:0}
+td:first-child,th:first-child{text-align:left}
+tr.chosen td{background:#ffe3c2;font-weight:600}
+tr.tie td:first-child{border-left:4px solid #3a6fd8}
+.status-complete{color:#176317}.status-incomplete,.status-running{color:#9a6300}
+.status-invalid,.status-failed{color:#b00020}
+.controls{margin:.5em 0}.controls label{margin-right:1em}
+code{font-size:12px}
+</style></head><body>
+<h1>E02 report: 20261020-140632-pilot-behavior</h1>
+<p>Kind pilot, corpus digest <code>f201391309237e9c0dd41ca7f54c62c2824417c4fd71741339751f074840bfff</code>. Attempts by status: incomplete 1. 166 candidate rows in <a href="decisions.csv">decisions.csv</a>; configuration aggregates in <a href="summary.csv">summary.csv</a>.</p>
+<h2>Run status</h2><p>Every observed attempt is listed. Only complete attempts that no other attempt replaces enter the aggregates.</p>
+<table><thead><tr><th>attempt</th><th>run</th><th>target</th><th>cap</th><th>rep seed</th><th>round</th><th>runner outcome</th><th>run status</th><th>in aggregates</th><th>replaces</th><th>replacement reason</th><th>replaced by</th><th>reasons</th></tr></thead><tbody><tr><td><a href="runs/behavior.a1.html">behavior.a1</a></td><td>behavior</td><td>16</td><td>1024</td><td>11</td><td>1</td><td>incomplete</td><td><span class="status-incomplete">incomplete</span></td><td>no</td><td></td><td></td><td></td><td>runner outcome incomplete: runner outcome running: None; runner: runner outcome running: None</td></tr></tbody></table>
+<h2>Unobserved attempts</h2><p>These cost-control runs had logging off. They have no event history and never enter the aggregates.</p>
+<p>No unobserved attempts.</p>
+<h2>Configurations</h2><p>Each run value comes from one complete attempt. Sample SD needs two runs. Recovery is undefined, not zero, when no episode resumed. Percentile tails are shown per run and not averaged.</p>
+<h3 id="cfg-16-1024">Target 16, cap 1024</h3>
+<p>0 complete attempts enter these aggregates: none.</p>
+<table><thead><tr><th>metric</th><th>mean</th><th>sample SD</th><th>median</th><th>range</th><th>n</th></tr></thead><tbody></tbody></table>
+<p>Pooled request-level distribution across the complete attempts above. Each run's own tails are in the metric table; they are not averaged into a configuration tail.</p>
+<table><thead><tr><th>measure</th><th>requests</th><th>median</th><th>p90</th><th>p99</th><th>max</th></tr></thead><tbody><tr><td>ttft_s</td><td>0</td><td>undefined</td><td>undefined</td><td>undefined</td><td>undefined</td></tr><tr><td>tpot_s</td><td>0</td><td>undefined</td><td>undefined</td><td>undefined</td><td>undefined</td></tr></tbody></table>
+<h2>Selected examples</h2>
+<p>No annotations.tsv in this root.</p>
+<h2>Limits</h2><p>Block generations and completed intervals are observer concepts. Fixtures on the real scheduler check them; snapshots do not. GPU re-prefill time is unavailable, so this report gives only completed re-prefill tokens. Alternative candidates are observations at a decision, not measured outcomes: choosing another victim would change every later allocation. Events within a run share one history, so many preemptions in one run are not independent samples.</p>
+<footer><h2>Inputs</h2>
+<table><thead><tr><th>input file</th><th>sha256</th></tr></thead><tbody><tr><td>attempts/behavior.a1/attempt.json</td><td><code>b2550b6d2e66be4b8c868088082ef28216fdb6c3218ba43fe5de44ad609dda13</code></td></tr><tr><td>attempts/behavior.a1/client.jsonl</td><td><code>37ebd701148b5fed147373aa979a19502e04dcb4b401f04b4a638ac0bd3b0bf7</code></td></tr><tr><td>attempts/behavior.a1/events.jsonl</td><td><code>7d16c26a215e37f198bdb22bb77a28134c9394de20b8dd630e55f4f9725f11c9</code></td></tr><tr><td>attempts/behavior.a1/snapshots.jsonl</td><td><code>3ce01527ba57facb50920ad6b393daa5c4e771ad33f603dd3bef6f44fca69297</code></td></tr><tr><td>plan.json</td><td><code>3c6ae8c269018a04033f3d7240b766ea319a4a43b43245e576ef619f4e48e7cb</code></td></tr></tbody></table>
+</footer>
+</body></html>

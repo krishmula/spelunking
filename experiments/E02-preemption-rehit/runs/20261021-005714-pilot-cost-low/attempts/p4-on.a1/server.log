@@ -1,0 +1,161 @@
+objc[1890]: Class AVFFrameReceiver is implemented in both /opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavdevice.63.1.102.dylib (0x139664328) and /Users/krishna/dev/vllm-lab/.venv/lib/python3.12/site-packages/cv2/.dylibs/libavdevice.61.3.100.dylib (0x1399f43a8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[1890]: Class AVFAudioReceiver is implemented in both /opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavdevice.63.1.102.dylib (0x139664378) and /Users/krishna/dev/vllm-lab/.venv/lib/python3.12/site-packages/cv2/.dylibs/libavdevice.61.3.100.dylib (0x1399f43f8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+W1021 01:06:06.835000 1890 torch/_library/triton.py:53] Triton not available, find_triton_kernels = []
+(APIServer pid=1890) INFO 10-21 01:06:06 [api_utils.py:347] 
+(APIServer pid=1890) INFO 10-21 01:06:06 [api_utils.py:347]        █     █     █▄   ▄█
+(APIServer pid=1890) INFO 10-21 01:06:06 [api_utils.py:347]  ▄▄ ▄█ █     █     █ ▀▄▀ █  version 0.31.0
+(APIServer pid=1890) INFO 10-21 01:06:06 [api_utils.py:347]   █▄█▀ █     █     █     █  model   mlx-community/Qwen3-4B-4bit
+(APIServer pid=1890) INFO 10-21 01:06:06 [api_utils.py:347]    ▀▀  ▀▀▀▀▀ ▀▀▀▀▀ ▀     ▀
+(APIServer pid=1890) INFO 10-21 01:06:06 [api_utils.py:347] 
+(APIServer pid=1890) INFO 10-21 01:06:06 [api_utils.py:286] non-default args: {'model_tag': 'mlx-community/Qwen3-4B-4bit', 'port': 8013, 'model': 'mlx-community/Qwen3-4B-4bit', 'max_model_len': 9216, 'block_size': 16, 'gpu_memory_utilization': 0.38, 'num_gpu_blocks_override': 776, 'enable_prefix_caching': True, 'max_num_batched_tokens': 2048, 'max_num_seqs': 4, 'scheduler_cls': 'e02.observer.ObservedScheduler', 'async_scheduling': True}
+(APIServer pid=1890) WARNING 10-21 01:06:06 [system_utils.py:249] Found ulimit of 2048 and failed to automatically increase with error current limit exceeds maximum limit. This can cause fd limit errors like `OSError: [Errno 24] Too many open files`. Consider increasing with ulimit -n
+(APIServer pid=1890) INFO 10-21 01:06:06 [arg_utils.py:901] HF_HUB_OFFLINE is True, replace model_id [mlx-community/Qwen3-4B-4bit] to model_path [/Users/krishna/.cache/huggingface/hub/models--mlx-community--Qwen3-4B-4bit/snapshots/4dcb3d101c2a062e5c1d4bb173588c54ea6c4d25]
+(APIServer pid=1890) INFO 10-21 01:06:06 [model.py:699] Resolved architecture: Qwen3ForCausalLM
+(APIServer pid=1890) INFO 10-21 01:06:06 [model.py:2109] Using max model len 9216
+(APIServer pid=1890) WARNING 10-21 01:06:06 [indexer_topk.py:35] Failed to import the DeepSelect extension (vllm._deepselect_C): No module named 'vllm._deepselect_C'
+(APIServer pid=1890) INFO 10-21 01:06:07 [kernel.py:408] Final IR op priority after setting platform defaults: IrOpPriorityConfig(rms_norm=['native'], fused_add_rms_norm=['native'], gelu_and_mul_sparse=['native'])
+(APIServer pid=1890) INFO 10-21 01:06:07 [platform.py:859] Metal: chunked prefill enabled (paged attention), max_num_batched_tokens=2048
+(APIServer pid=1890) INFO 10-21 01:06:07 [platform.py:978] Metal memory: 17.2GB total, 8.9GB available
+objc[2073]: Class AVFFrameReceiver is implemented in both /opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavdevice.63.1.102.dylib (0x125128328) and /Users/krishna/dev/vllm-lab/.venv/lib/python3.12/site-packages/cv2/.dylibs/libavdevice.61.3.100.dylib (0x1257983a8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[2073]: Class AVFAudioReceiver is implemented in both /opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavdevice.63.1.102.dylib (0x125128378) and /Users/krishna/dev/vllm-lab/.venv/lib/python3.12/site-packages/cv2/.dylibs/libavdevice.61.3.100.dylib (0x1257983f8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+(EngineCore pid=2073) INFO 10-21 01:06:10 [core.py:129] Initializing a V1 LLM engine (v0.31.0) with config: model='/Users/krishna/.cache/huggingface/hub/models--mlx-community--Qwen3-4B-4bit/snapshots/4dcb3d101c2a062e5c1d4bb173588c54ea6c4d25', speculative_config=None, tokenizer='/Users/krishna/.cache/huggingface/hub/models--mlx-community--Qwen3-4B-4bit/snapshots/4dcb3d101c2a062e5c1d4bb173588c54ea6c4d25', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=9216, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, decode_context_parallel_size=1, dcp_comm_backend=ag_rs, disable_custom_all_reduce=True, quantization=None, quantization_config=None, enforce_eager=False, aux_output_config=AuxOutputConfig(enable_return_routed_experts=False, max_bytes=None), kv_cache_dtype=auto, device_config=cpu, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, per_request_spec_decode_metrics='none', kv_cache_metrics=False, kv_cache_metrics_sample=0.01, cudagraph_metrics=False, enable_layerwise_nvtx_tracing=False, enable_mfu_metrics=False, enable_mm_processor_stats=False, enable_logging_iteration_details=False, jit_monitor_mode='warn', jit_monitor_verbose=False), seed=0, served_model_name=/Users/krishna/.cache/huggingface/hub/models--mlx-community--Qwen3-4B-4bit/snapshots/4dcb3d101c2a062e5c1d4bb173588c54ea6c4d25, enable_prefix_caching=True, enable_chunked_prefill=True, pooler_config=None, compilation_config={'mode': <CompilationMode.VLLM_COMPILE: 3>, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['none'], 'ir_enable_torch_wrap': True, 'splitting_ops': ['vllm::unified_attention_with_output', 'vllm::unified_mla_attention_with_output', 'vllm::mamba_mixer2', 'vllm::mamba_mixer', 'vllm::short_conv', 'vllm::qwen4_exp_ple_short_conv', 'vllm::qwen4_exp_qsa_with_output', 'vllm::linear_attention', 'vllm::qwen_gdn_attention_core', 'vllm::qwen_gdn_attention_core_fused_norm_packed', 'vllm::gdn_attention_core_xpu', 'vllm::olmo_hybrid_gdn_full_forward', 'vllm::sparse_attn_indexer', 'vllm::rocm_aiter_sparse_attn_indexer', 'vllm::deepseek_v4_attention', 'vllm::hpc_rope_norm_forward', 'vllm::unified_kv_cache_update', 'vllm::unified_mla_kv_cache_update'], 'compile_mm_encoder': False, 'cudagraph_mm_encoder': False, 'encoder_cudagraph_token_budgets': [], 'encoder_cudagraph_max_vision_items_per_batch': 0, 'encoder_cudagraph_max_frames_per_batch': None, 'compile_sizes': None, 'compile_ranges_endpoints': [2048], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': <CUDAGraphMode.NONE: 0>, 'cudagraph_num_of_warmups': 0, 'cudagraph_capture_sizes': None, 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': False, 'fuse_act_quant': False, 'fuse_attn_quant': False, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False, 'enable_qk_norm_rope_fusion': False, 'fuse_rope_kvcache_cat_mla': False, 'fuse_act_padding': False, 'fuse_qk_norm_rope_kvcache': False}, 'max_cudagraph_capture_size': None, 'dynamic_shapes_config': {'type': <DynamicShapesType.BACKED: 'backed'>, 'evaluate_guards': False, 'assume_32_bit_indexing': False}, 'local_cache_dir': None, 'fast_moe_cold_start': False, 'static_all_moe_layers': []}, kernel_config=KernelConfig(ir_op_priority=IrOpPriorityConfig(rms_norm=['native'], fused_add_rms_norm=['native'], gelu_and_mul_sparse=['native']), enable_flashinfer_autotune=True, enable_cutedsl_warmup=True, enable_jit_warmup=True, moe_backend='auto', sparse_indexer_topk_backend='auto', linear_backend='auto', linear_backend_per_quant=None)
+W1021 01:06:10.944000 2073 torch/_library/triton.py:53] Triton not available, find_triton_kernels = []
+(EngineCore pid=2073) INFO 10-21 01:06:10 [worker.py:137] MLX device set to: Device(gpu, 0)
+mx.metal.device_info is deprecated and will be removed in a future version. Use mx.device_info instead.
+(EngineCore pid=2073) INFO 10-21 01:06:10 [utils.py:170] Set Metal wired_limit to 11.8 GB
+(EngineCore pid=2073) INFO 10-21 01:06:10 [worker.py:145] PyTorch device set to: mps
+(EngineCore pid=2073) INFO 10-21 01:06:10 [parallel_state.py:1825] world_size=1 rank=0 local_rank=0 distributed_init_method=file:///var/folders/sm/23wzjqm95qd2870vpzsm9byw0000gn/T/vllm_dist_b1185eba5c0049298ccdd43fe91289e2 backend=gloo
+(EngineCore pid=2073) INFO 10-21 01:06:10 [parallel_state.py:2269] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 0, ETP rank 0, EP rank N/A, EPLB rank N/A
+(EngineCore pid=2073) INFO 10-21 01:06:11 [model_lifecycle.py:427] MLX-LM model loaded in 0.61s: /Users/krishna/.cache/huggingface/hub/models--mlx-community--Qwen3-4B-4bit/snapshots/4dcb3d101c2a062e5c1d4bb173588c54ea6c4d25
+(EngineCore pid=2073) INFO 10-21 01:06:11 [utils.py:343] Using LBNHC KV cache layout.
+(EngineCore pid=2073) INFO 10-21 01:06:14 [cache_policy.py:1412] Paged attention: using --gpu-memory-utilization=0.38
+(EngineCore pid=2073) INFO 10-21 01:06:14 [cache_policy.py:1344] KV commit probe: forced 512 MiB resident in 0.05s: available 4.0->4.1 GiB, compressed +174 MiB, swap out +0 MiB; holding back 1.07 GB for the rest of the machine
+(EngineCore pid=2073) INFO 10-21 01:06:14 [cache_policy.py:1125] Upstream cache layout: reporting 1.83 GB KV budget; runtime allocation deferred until vLLM KVCacheConfig
+(EngineCore pid=2073) INFO 10-21 01:06:14 [kv_cache_utils.py:2772] Overriding num_gpu_blocks=777 with num_gpu_blocks_override=776
+(EngineCore pid=2073) INFO 10-21 01:06:14 [kv_cache_utils.py:2464] CPU KV cache size: 12,416 tokens, Maximum concurrency for 9,216 tokens per request: 1.35x
+(EngineCore pid=2073) INFO 10-21 01:06:14 [__init__.py:341] NAX prefill attention kernels loaded (M5 tensor units)
+(EngineCore pid=2073) INFO 10-21 01:06:14 [__init__.py:344] Native paged-attention Metal kernels loaded
+(EngineCore pid=2073) INFO 10-21 01:06:14 [sdpa.py:92] Shared attention cache: 776 blocks, 1.71 GiB across 36 Metal regions
+(EngineCore pid=2073) INFO 10-21 01:06:14 [cache_policy.py:649] KV cache config received: 776 grouped blocks (MLX layout initialized from vLLM config)
+(EngineCore pid=2073) INFO 10-21 01:06:14 [model_runner.py:1293] Warming up model...
+(EngineCore pid=2073) INFO 10-21 01:06:14 [model_runner.py:1297] Model warm-up complete
+(EngineCore pid=2073) INFO 10-21 01:06:14 [__init__.py:363] Warming up v2 paged-attention Metal kernels...
+(EngineCore pid=2073) INFO 10-21 01:06:14 [__init__.py:371] Paged-attention Metal kernel warm-up complete
+(EngineCore pid=2073) INFO 10-21 01:06:14 [core.py:373] init engine (profile, create kv cache, warmup model) took 2.69 s (compilation: 0.04 s)
+(EngineCore pid=2073) WARNING 10-21 01:06:14 [scheduler.py:245] Using custom scheduler class e02.observer.ObservedScheduler. This scheduler interface is not public and compatibility may not be maintained. If you have subclassed Scheduler instead of AsyncScheduler, you will see degraded performance due to async scheduling being disabled.
+(EngineCore pid=2073) INFO 10-21 01:06:14 [kernel.py:408] Final IR op priority after setting platform defaults: IrOpPriorityConfig(rms_norm=['native'], fused_add_rms_norm=['native'], gelu_and_mul_sparse=['native'])
+(EngineCore pid=2073) INFO 10-21 01:06:14 [platform.py:859] Metal: chunked prefill enabled (paged attention), max_num_batched_tokens=2048
+(EngineCore pid=2073) INFO 10-21 01:06:14 [platform.py:978] Metal memory: 17.2GB total, 3.0GB available
+(APIServer pid=1890) INFO 10-21 01:06:14 [entry.py:132] Supported tasks: ['generate']
+(APIServer pid=1890) WARNING 10-21 01:06:14 [__init__.py:44] SECURITY WARNING: Development endpoints are enabled! This should NOT be used in production!
+(APIServer pid=1890) INFO 10-21 01:06:14 [factories.py:76] Scale-out endpoints are disabled. Set --enable-scale-out to enable them.
+(APIServer pid=1890) INFO 10-21 01:06:14 [hf.py:646] Detected the chat template content format to be 'string'. You can set `--chat-template-content-format` to override this.
+(APIServer pid=1890) INFO 10-21 01:06:14 [entry.py:136] Starting vLLM server on http://0.0.0.0:8013
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:60] Available routes are:
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /openapi.json, Methods: HEAD, GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /docs, Methods: HEAD, GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /docs/oauth2-redirect, Methods: HEAD, GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /redoc, Methods: HEAD, GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /load, Methods: GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /version, Methods: GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /kv_event_sources, Methods: GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /health, Methods: GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /metrics, Methods: GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /tokenize, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /detokenize, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /v1/models, Methods: GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /ping, Methods: GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /ping, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /invocations, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /reset_prefix_cache, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /reset_mm_cache, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /reset_encoder_cache, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /pause, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /resume, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /abort_requests, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /is_paused, Methods: GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /init_weight_transfer_engine, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /start_weight_update, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /start_draft_weight_update, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /update_weights, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /finish_weight_update, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /update_weight_version, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /weight_info, Methods: GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /get_world_size, Methods: GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /collective_rpc, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /server_info, Methods: GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /sleep, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /release_kv_cache_memory, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /wake_up, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /is_sleeping, Methods: GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /v1/chat/completions, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /v1/chat/completions/batch, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /v1/responses, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /v1/responses/{response_id}, Methods: GET
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /v1/responses/{response_id}/cancel, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /v1/completions, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /v1/messages, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /v1/messages/count_tokens, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /generative_scoring, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /scale_elastic_ep, Methods: POST
+(APIServer pid=1890) INFO 10-21 01:06:14 [launcher.py:69] Route: /is_scaling_elastic_ep, Methods: POST
+INFO:     Started server process [1890]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:57823 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57825 - "GET /metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57826 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57827 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57828 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57829 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1890) INFO 10-21 01:06:25 [loggers.py:320] Engine 000: Avg prompt throughput: 24.8 tokens/s, Avg generation throughput: 64.7 tokens/s, Running: 4 reqs, Waiting: 0 reqs, CPU KV cache usage: 2.6%, Prefix cache hit rate: 0.0%
+INFO:     127.0.0.1:57826 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57827 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57828 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57829 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1890) INFO 10-21 01:06:35 [loggers.py:320] Engine 000: Avg prompt throughput: 12.9 tokens/s, Avg generation throughput: 70.8 tokens/s, Running: 4 reqs, Waiting: 0 reqs, CPU KV cache usage: 4.1%, Prefix cache hit rate: 0.0%
+INFO:     127.0.0.1:57826 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57827 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57828 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57829 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1890) INFO 10-21 01:06:37 [api_router.py:39] Resetting prefix cache...
+(EngineCore pid=2073) INFO 10-21 01:06:37 [block_pool.py:864] Successfully reset prefix cache
+INFO:     127.0.0.1:57856 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57857 - "GET /metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57858 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57859 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57860 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57861 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1890) INFO 10-21 01:06:45 [loggers.py:320] Engine 000: Avg prompt throughput: 406.2 tokens/s, Avg generation throughput: 34.3 tokens/s, Running: 4 reqs, Waiting: 0 reqs, CPU KV cache usage: 34.5%, Prefix cache hit rate: 0.0%
+(APIServer pid=1890) INFO 10-21 01:06:55 [loggers.py:320] Engine 000: Avg prompt throughput: 0.0 tokens/s, Avg generation throughput: 64.0 tokens/s, Running: 4 reqs, Waiting: 0 reqs, CPU KV cache usage: 39.6%, Prefix cache hit rate: 0.0%
+INFO:     127.0.0.1:57858 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57859 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57860 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57861 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1890) INFO 10-21 01:07:05 [loggers.py:320] Engine 000: Avg prompt throughput: 414.0 tokens/s, Avg generation throughput: 32.7 tokens/s, Running: 4 reqs, Waiting: 0 reqs, CPU KV cache usage: 34.8%, Prefix cache hit rate: 0.0%
+(APIServer pid=1890) INFO 10-21 01:07:15 [loggers.py:320] Engine 000: Avg prompt throughput: 0.0 tokens/s, Avg generation throughput: 63.6 tokens/s, Running: 4 reqs, Waiting: 0 reqs, CPU KV cache usage: 39.9%, Prefix cache hit rate: 0.0%
+INFO:     127.0.0.1:57878 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1890) INFO 10-21 01:07:19 [api_router.py:39] Resetting prefix cache...
+(EngineCore pid=2073) INFO 10-21 01:07:19 [block_pool.py:864] Successfully reset prefix cache
+INFO:     127.0.0.1:57879 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(EngineCore pid=2073) INFO 10-21 01:07:19 [core.py:1409] [shutdown] EngineCore: trigger received signal=SIGTERM
+(APIServer pid=1890) INFO 10-21 01:07:19 [launcher.py:128] [shutdown] API server: shutdown triggered
+(EngineCore pid=2073) INFO 10-21 01:07:19 [core.py:1558] [shutdown] EngineCore: start mode=abort timeout=0s
+(APIServer pid=1890) INFO 10-21 01:07:19 [launcher.py:144] [shutdown] API server: stopping engine client mode=abort timeout=0s
+(EngineCore pid=2073) INFO 10-21 01:07:19 [core.py:1589] [shutdown] EngineCore: request processing complete; starting resource teardown
+(EngineCore pid=2073) INFO 10-21 01:07:19 [core.py:1422] [shutdown] EngineCore: exiting busy loop
+(APIServer pid=1890) INFO 10-21 01:07:19 [core_client.py:762] [shutdown] MPClient: start timeout=0s
+(EngineCore pid=2073) INFO 10-21 01:07:19 [worker.py:471] Metal worker shutdown complete
+(APIServer pid=1890) INFO 10-21 01:07:19 [core_client.py:764] [shutdown] MPClient: stopping engine manager
+(APIServer pid=1890) INFO 10-21 01:07:19 [utils.py:638] [shutdown] Process manager: send sigterm to process EngineCore
+(APIServer pid=1890) WARNING 10-21 01:07:19 [utils.py:658] [shutdown] Process manager: force killing remaining processes count=1
+(APIServer pid=1890) WARNING 10-21 01:07:19 [utils.py:663] [shutdown] Process manager: force killing remaining process EngineCore pid 2073
+(APIServer pid=1890) INFO 10-21 01:07:19 [core_client.py:766] [shutdown] MPClient: engine manager stopped
+(APIServer pid=1890) INFO 10-21 01:07:19 [core_client.py:767] [shutdown] MPClient: cleaning up background resources
+(APIServer pid=1890) INFO 10-21 01:07:19 [core_client.py:769] [shutdown] MPClient: complete
+(APIServer pid=1890) INFO 10-21 01:07:19 [launcher.py:153] [shutdown] API server: engine client stopped
+(APIServer pid=1890) INFO 10-21 01:07:19 [launcher.py:156] [shutdown] API server: signalling HTTP server shutdown
+(APIServer pid=1890) INFO 10-21 01:07:19 [launcher.py:178] [shutdown] API server: shutting down FastAPI HTTP server
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.

@@ -1,0 +1,30 @@
+{
+  "time": "2026-10-20T21:37:53.123591+00:00",
+  "files": {
+    ".audit/e02-implementation/synthesis.md": "8743f8b392898eeb8e37e41481bb9e94adf63c74aeea9f0668537f2ebd36eb23",
+    ".audit/e02-implementation/verification-contract.md": "3199910d1f7fb6febf46e4166e8bcf42716947e24a0ed04da54d6c13ef3439f0",
+    "experiments/E02-preemption-rehit/README.md": "0dcd63f4974ea46fdf2afce2d4324538cfb6a49020858b0bee139d07ce62a968",
+    "experiments/E02-preemption-rehit/e02/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/E02-preemption-rehit/e02/__main__.py": "826ba389431a4acc8311218ac74cff22ea8828feb85ffe75e35f5a6680175ec2",
+    "experiments/E02-preemption-rehit/e02/corpus.py": "7f91bb950b919903de1eadeedd9759b3b141dc007953224df1b6ce07cc74995d",
+    "experiments/E02-preemption-rehit/e02/events.py": "f5b81d42a270de20c8b13a45ae74396ebe62f2526c7545f443dc531ca0d53dd7",
+    "experiments/E02-preemption-rehit/e02/history.py": "61c053903f0c628ecd08f6b339b591cc27edd964aa52f62f4487e36c6bccf333",
+    "experiments/E02-preemption-rehit/e02/observer.py": "494cc3d5d6811e958591119383d9888dc4527861040691376a5a3452ea67a375",
+    "experiments/E02-preemption-rehit/e02/report.py": "fec7bb300dc883632b9d73ee1a1e594aa154a67aae66ad06d76cd727d5923f6d",
+    "experiments/E02-preemption-rehit/e02/sweep.py": "5dbc3485c73f8cfc8c425eba6638ce54a69d71bca4e84ed9ea596686960d4e8f",
+    "experiments/E02-preemption-rehit/tests/.pytest_cache/.gitignore": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "experiments/E02-preemption-rehit/tests/.pytest_cache/CACHEDIR.TAG": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "experiments/E02-preemption-rehit/tests/.pytest_cache/README.md": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "experiments/E02-preemption-rehit/tests/.pytest_cache/v/cache/lastfailed": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "experiments/E02-preemption-rehit/tests/.pytest_cache/v/cache/nodeids": "ef1c62bbf0d21ef7b942db2b1b1f3d84534f1b191e990aa3787415ccd7641919",
+    "experiments/E02-preemption-rehit/tests/conftest.py": "ae286d1a480ce5ae0a4af55cd2af2f425faab130f6ee28501d23d1a81c797237",
+    "experiments/E02-preemption-rehit/tests/engine_fixture.py": "063895ae11f44289a118f8d667e09bf83b93f6d0c6d9499cfc4a4a6ceec85c65",
+    "experiments/E02-preemption-rehit/tests/scenarios.py": "0a6806e4dc79ae5f7c657eacd83dbde1c78ad588fd5a5366ffda2cdfb87d4035",
+    "experiments/E02-preemption-rehit/tests/test_corpus.py": "e250050b85205f5c2c472a9b5a309f2e31a0cb7ec71ebd606798b9b1e1e9f782",
+    "experiments/E02-preemption-rehit/tests/test_integrity.py": "570083101b6f1b2b7fa59eb337a80b4db145bcea06f4a7e04c55e416b82c0b0e",
+    "experiments/E02-preemption-rehit/tests/test_replay.py": "0a55c388cc8594f68fef7b54d60d9d382204d23ec0ae41e5f521a55e7ea57cf3",
+    "experiments/E02-preemption-rehit/tests/test_report.py": "96752b019b6bb67617aeb5b8541e23416d103414e0f794bd49d071fd93e70e60",
+    "experiments/E02-preemption-rehit/tests/test_sweep.py": "2e0def4a72936dc2f0420a5c747b3328e9a060630cb1a052468ccb92012f0bd2",
+    "experiments/E02-preemption-rehit/tests/test_twin.py": "00e60fe9f090177ea38ede2203d3409bba3da1240031971552867777bc3e192c"
+  }
+}

@@ -1,0 +1,15 @@
+{
+ "errors": 0,
+ "exit_code": 0,
+ "failures": 0,
+ "fingerprint": "684e1273e0dfd68cef1f9963961b183e516fbf3cfffb5086206f4221e41dfac4",
+ "fingerprint_after": "684e1273e0dfd68cef1f9963961b183e516fbf3cfffb5086206f4221e41dfac4",
+ "junit_sha256": "0b81d5643a1030d15c49dce381f14efc10b03b3742e82c4ad67c6e5581044575",
+ "python": "/Users/krishna/dev/vllm-lab/.venv/bin/python",
+ "skipped": 0,
+ "targets": [
+  "tests"
+ ],
+ "tests": 141,
+ "time": "2026-10-20T15:09:18-07:00"
+}

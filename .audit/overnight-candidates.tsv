@@ -1,0 +1,5 @@
+ts	phase	decision	why	evidence	result
+2026-11-22T09:07:50Z	start	Run the three candidate tests in series	Each timing gets exclusive use of the GPU	experiments/JOURNAL.md	open
+2026-11-22T09:10:16Z	Metal	Release GPU after two page layout sweeps	Neither sweep cleared the timing control on both seeds	experiments/E05-metal-page-layout/runs	stop before full step
+2026-11-22T13:58:36Z	resume	Resume E07; keep GPU exclusive	E07 had a runner and no recorded measurement when work resumed	experiments/E07-speculative-depth/README.md	open
+2026-11-22T13:58:36Z	KV	Keep the first trace verdict and check a separate 256 requests after E07	The first trace saved a preemption at just one capacity	experiments/E06-prefix-deferral-trace/runs/20261122-011017-trace/summary.json	holdout selected before inspecting its outcomes

@@ -1,0 +1,144 @@
+[
+  {
+    "command": [
+      "/Users/krishna/dev/vllm-lab/.venv/bin/python",
+      "-m",
+      "e02",
+      "plan"
+    ],
+    "exit_code": 0,
+    "stdout": "100 runs, 10000 requests, pool 776 blocks of 16 (775 usable), server args --max-model-len 9216 --max-num-batched-tokens 2048 --gpu-memory-utilization 0.38 --num-gpu-blocks-override 776 --block-size 16 --enable-prefix-caching --async-scheduling --scheduling-policy fcfs --seed 0\nround 1 rep seed 11: first items [82, 72, 51, 58, 54, 47], first item seeds [208806940, 1979391687, 93332298]\n  order: t4/c512, t16/c1024, t4/c1024, t4/c4096, t32/c512, t32/c2048, t24/c2048, t16/c2048, t32/c4096, t24/c512, t16/c512, t8/c2048, t8/c512, t32/c1024, t16/c4096, t24/c4096, t4/c2048, t8/c1024, t24/c1024, t8/c4096\nround 2 rep seed 23: first items [71, 25, 78, 44, 18, 57], first item seeds [2139845084, 1695380770, 1241298673]\n  order: t24/c2048, t32/c4096, t16/c4096, t24/c512, t24/c1024, t32/c2048, t24/c4096, t4/c1024, t8/c512, t16/c512, t4/c4096, t16/c2048, t16/c1024, t4/c2048, t8/c2048, t32/c512, t4/c512, t8/c1024, t8/c4096, t32/c1024\nround 3 rep seed 37: first items [15, 24, 42, 34, 21, 16], first item seeds [798822030, 1188900764, 482351843]\n  order: t8/c2048, t4/c1024, t16/c4096, t4/c2048, t24/c2048, t24/c512, t4/c512, t32/c2048, t16/c512, t8/c4096, t24/c1024, t8/c512, t8/c1024, t4/c4096, t24/c4096, t16/c1024, t16/c2048, t32/c4096, t32/c512, t32/c1024\nround 4 rep seed 53: first items [71, 47, 18, 8, 73, 0], first item seeds [46183929, 23519275, 1929209961]\n  order: t16/c2048, t24/c4096, t16/c4096, t16/c512, t8/c4096, t32/c512, t8/c2048, t32/c4096, t4/c512, t8/c1024, t16/c1024, t24/c2048, t8/c512, t4/c1024, t4/c2048, t4/c4096, t32/c1024, t24/c512, t32/c2048, t24/c1024\nround 5 rep seed 71: first items [56, 54, 29, 14, 92, 9], first item seeds [1832949834, 29375141, 1649856167]\n  order: t8/c4096, t24/c2048, t24/c4096, t8/c1024, t32/c1024, t16/c512, t32/c512, t16/c4096, t24/c1024, t24/c512, t4/c512, t16/c2048, t8/c2048, t16/c1024, t4/c1024, t4/c2048, t32/c2048, t8/c512, t4/c4096, t32/c4096\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Users/krishna/dev/vllm-lab/.venv/bin/python",
+      "-m",
+      "e02",
+      "check"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n \"corpus_digest\": \"f201391309237e9c0dd41ca7f54c62c2824417c4fd71741339751f074840bfff\",\n \"predictions_digest\": \"3bcd8e66101466e2002c47c254cfcb68343bcca0602811ea8cc5f4cac5d89930\",\n \"engine\": {\n  \"vllm-core\": {\n   \"sha\": \"db9527a46873454610df6dbedf79a36d6bf1a7f6\",\n   \"dirty_diff_sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\n   \"dirty\": false\n  },\n  \"vllm-metal\": {\n   \"sha\": \"572322e17584bb54afbc9e143f72009c2398bbba\",\n   \"dirty_diff_sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\n   \"dirty\": false\n  },\n  \"stock_sources\": {\n   \"Scheduler.schedule\": \"73b6a4084e76ac6c\",\n   \"Scheduler._preempt_request\": \"4113f5de8a84ec25\",\n   \"Scheduler.update_from_output\": \"85b29db96051135c\",\n   \"Scheduler.add_request\": \"ab9efd2a1069dbe9\",\n   \"Scheduler.finish_requests\": \"b7a4ef7b8aa588bf\",\n   \"Scheduler._free_request\": \"21f109d2b2c2d8ef\",\n   \"Scheduler._free_blocks\": \"b24b618a274d6f5c\",\n   \"Scheduler._free_request_blocks\": \"f967ef09115484c6\",\n   \"Scheduler.reset_prefix_cache\": \"36b4355be090877e\",\n   \"Scheduler._update_after_schedule\": \"2b527eb8070d3cce\",\n   \"Scheduler._request_blocks_can_be_freed\": \"d3dd6fc13e67f3f1\",\n   \"AsyncScheduler._update_after_schedule\": \"138d47daea23cdfd\",\n   \"AsyncScheduler._update_request_with_output\": \"c4c4ccac872af040\",\n   \"BlockPool.get_new_blocks\": \"ab54592edae48a7c\",\n   \"BlockPool.touch\": \"08fcc52c2ec9e624\",\n   \"BlockPool.free_blocks\": \"f12f94bc787cc15e\",\n   \"BlockPool._insert_block_hash\": \"14a8749486bcd9f6\",\n   \"BlockPool._remove_cached_block_hashes\": \"6fa2ab7286e56f01\",\n   \"BlockPool.reset_prefix_cache\": \"160053665bf4d269\",\n   \"BlockPool.cache_full_blocks\": \"5fbbcc0cf6eb1c7e\",\n   \"BlockPool._maybe_evict_cached_block\": \"9d7fec709e2b25d9\",\n   \"KVCacheManager.get_computed_blocks\": \"77f434d88d573bfe\",\n   \"KVCacheManager.allocate_slots\": \"ffa596d58dfbbc62\",\n   \"KVCacheManager.free\": \"6ee26cbc5b6fc234\",\n   \"FreeKVCacheBlockQueue.popleft\": \"11b3c2d342a026fb\",\n   \"FreeKVCacheBlockQueue.popleft_n\": \"2ef81e822bb4aef9\",\n   \"FreeKVCacheBlockQueue.remove\": \"3e5a74b88b2db25f\",\n   \"FreeKVCacheBlockQueue.append\": \"68fbb7af73d462a9\",\n   \"FreeKVCacheBlockQueue.append_n\": \"e6670d2f826c89c0\",\n   \"FreeKVCacheBlockQueue.prepend_n\": \"1dc241a97fade1fd\",\n   \"SingleTypeKVCacheManager.free\": \"8293f02e5c2b8e0e\",\n   \"SingleTypeKVCacheManager.allocate_new_blocks\": \"b8edfbf2e1667228\",\n   \"SingleTypeKVCacheManager.add_local_computed_blocks\": \"8c415d4822aa3d0e\",\n   \"SingleTypeKVCacheManager.pop_blocks_for_free\": \"bc0da22a739b2d16\",\n   \"SingleTypeKVCacheManager.get_num_blocks_to_allocate\": \"f50d7c5b545195c3\",\n   \"FullAttentionManager.cache_blocks\": \"981125e4caafbec8\"\n  }\n },\n \"free_gib\": 19.58,\n \"technical_record\": {\n  \"record\": \"technical/20261020-150849/result.json\",\n  \"sha256\": \"69c00e0abcd83eb0351c9a9e6c79154da01cd3f4af4da24ad1d0a275f87bc176\",\n  \"tests\": 141\n },\n \"provenance\": {\n  \"source\": {\n   \"e02/__init__.py\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\n   \"e02/__main__.py\": \"0f5ffcaec37c969bfcd007550f03045433a9b9f23876ec937f182bfcd8e8bcd3\",\n   \"e02/corpus.py\": \"afe32205ad334dbff0d3fa83c41483eab0a8a348ec5dc5572a84d719e3e68ff4\",\n   \"e02/events.py\": \"6d63a32392d1aa2891a8b82c025fb7ecda247683ae886a4803d5fa7111ba8798\",\n   \"e02/history.py\": \"b80f4e520b09104de02bd247767c7e6380cf75458b8661d1706199963687b623\",\n   \"e02/observer.py\": \"643b264cbc726bc2f170e4a44f72a0f1dbb5649a113540e33059dac9fc0f5977\",\n   \"e02/report.py\": \"abb473d834036aae85bf5b8369f5eab78dadbd6bd8bfbd5f2b2758ff243d5396\",\n   \"e02/sweep.py\": \"4bfc5375e58367acdd703e7b1ba33cbb0afebb723c8155a8271c0e6a433946d3\"\n  },\n  \"config\": {\n   \"model\": \"mlx-community/Qwen3-4B-4bit\",\n   \"vllm\": \"/Users/krishna/dev/vllm-lab/.venv/bin/vllm\",\n   \"port\": 8013,\n   \"server_args\": [\n    \"--max-model-len\",\n    \"9216\",\n    \"--max-num-batched-tokens\",\n    \"2048\",\n    \"--gpu-memory-utilization\",\n    \"0.38\",\n    \"--num-gpu-blocks-override\",\n    \"776\",\n    \"--block-size\",\n    \"16\",\n    \"--enable-prefix-caching\",\n    \"--async-scheduling\",\n    \"--scheduling-policy\",\n    \"fcfs\",\n    \"--seed\",\n    \"0\"\n   ],\n   \"server_env\": [\n    [\n     \"HF_HUB_OFFLINE\",\n     \"1\"\n    ],\n    [\n     \"TRANSFORMERS_OFFLINE\",\n     \"1\"\n    ],\n    [\n     \"VLLM_SERVER_DEV_MODE\",\n     \"1\"\n    ],\n    [\n     \"VLLM_USE_V2_MODEL_RUNNER\",\n     \"0\"\n    ],\n    [\n     \"VLLM_WORKER_MULTIPROC_METHOD\",\n     \"spawn\"\n    ]\n   ],\n   \"observer_cls\": \"e02.observer.ObservedScheduler\",\n   \"temperature\": 0.6,\n   \"top_p\": 0.95,\n   \"num_blocks\": 776,\n   \"snapshot_every\": 256,\n   \"digest_every\": 1,\n   \"startup_timeout_s\": 900.0,\n   \"seal_timeout_s\": 120.0,\n   \"shutdown_grace_s\": 60.0,\n   \"kill_grace_s\": 30.0,\n   \"overhead_allowance_s\": 300.0,\n   \"warmup\": {\n    \"prompts\": 4,\n    \"tokens\": 128,\n    \"min_rounds\": 3,\n    \"max_rounds\": 12,\n    \"window\": 3,\n    \"max_relative_range\": 0.05,\n    \"max_s\": 600.0\n   }\n  },\n  \"corpus_digest\": \"f201391309237e9c0dd41ca7f54c62c2824417c4fd71741339751f074840bfff\",\n  \"predictions_digest\": \"3bcd8e66101466e2002c47c254cfcb68343bcca0602811ea8cc5f4cac5d89930\",\n  \"engine\": {\n   \"vllm-core\": {\n    \"sha\": \"db9527a46873454610df6dbedf79a36d6bf1a7f6\",\n    \"dirty_diff_sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\n    \"dirty\": false\n   },\n   \"vllm-metal\": {\n    \"sha\": \"572322e17584bb54afbc9e143f72009c2398bbba\",\n    \"dirty_diff_sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\n    \"dirty\": false\n   },\n   \"stock_sources\": {\n    \"Scheduler.schedule\": \"73b6a4084e76ac6c\",\n    \"Scheduler._preempt_request\": \"4113f5de8a84ec25\",\n    \"Scheduler.update_from_output\": \"85b29db96051135c\",\n    \"Scheduler.add_request\": \"ab9efd2a1069dbe9\",\n    \"Scheduler.finish_requests\": \"b7a4ef7b8aa588bf\",\n    \"Scheduler._free_request\": \"21f109d2b2c2d8ef\",\n    \"Scheduler._free_blocks\": \"b24b618a274d6f5c\",\n    \"Scheduler._free_request_blocks\": \"f967ef09115484c6\",\n    \"Scheduler.reset_prefix_cache\": \"36b4355be090877e\",\n    \"Scheduler._update_after_schedule\": \"2b527eb8070d3cce\",\n    \"Scheduler._request_blocks_can_be_freed\": \"d3dd6fc13e67f3f1\",\n    \"AsyncScheduler._update_after_schedule\": \"138d47daea23cdfd\",\n    \"AsyncScheduler._update_request_with_output\": \"c4c4ccac872af040\",\n    \"BlockPool.get_new_blocks\": \"ab54592edae48a7c\",\n    \"BlockPool.touch\": \"08fcc52c2ec9e624\",\n    \"BlockPool.free_blocks\": \"f12f94bc787cc15e\",\n    \"BlockPool._insert_block_hash\": \"14a8749486bcd9f6\",\n    \"BlockPool._remove_cached_block_hashes\": \"6fa2ab7286e56f01\",\n    \"BlockPool.reset_prefix_cache\": \"160053665bf4d269\",\n    \"BlockPool.cache_full_blocks\": \"5fbbcc0cf6eb1c7e\",\n    \"BlockPool._maybe_evict_cached_block\": \"9d7fec709e2b25d9\",\n    \"KVCacheManager.get_computed_blocks\": \"77f434d88d573bfe\",\n    \"KVCacheManager.allocate_slots\": \"ffa596d58dfbbc62\",\n    \"KVCacheManager.free\": \"6ee26cbc5b6fc234\",\n    \"FreeKVCacheBlockQueue.popleft\": \"11b3c2d342a026fb\",\n    \"FreeKVCacheBlockQueue.popleft_n\": \"2ef81e822bb4aef9\",\n    \"FreeKVCacheBlockQueue.remove\": \"3e5a74b88b2db25f\",\n    \"FreeKVCacheBlockQueue.append\": \"68fbb7af73d462a9\",\n    \"FreeKVCacheBlockQueue.append_n\": \"e6670d2f826c89c0\",\n    \"FreeKVCacheBlockQueue.prepend_n\": \"1dc241a97fade1fd\",\n    \"SingleTypeKVCacheManager.free\": \"8293f02e5c2b8e0e\",\n    \"SingleTypeKVCacheManager.allocate_new_blocks\": \"b8edfbf2e1667228\",\n    \"SingleTypeKVCacheManager.add_local_computed_blocks\": \"8c415d4822aa3d0e\",\n    \"SingleTypeKVCacheManager.pop_blocks_for_free\": \"bc0da22a739b2d16\",\n    \"SingleTypeKVCacheManager.get_num_blocks_to_allocate\": \"f50d7c5b545195c3\",\n    \"FullAttentionManager.cache_blocks\": \"981125e4caafbec8\"\n   }\n  },\n  \"technical_fingerprint\": \"684e1273e0dfd68cef1f9963961b183e516fbf3cfffb5086206f4221e41dfac4\"\n },\n \"provenance_digest\": \"5e3f1f57e751a537328d6124a180d4e77ad7ce178c578f2163274bccd8fefe21\"\n}\n",
+    "stderr": "objc[86451]: Class AVFFrameReceiver is implemented in both /opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavdevice.63.1.102.dylib (0x13b570328) and /Users/krishna/dev/vllm-lab/.venv/lib/python3.12/site-packages/cv2/.dylibs/libavdevice.61.3.100.dylib (0x13c0803a8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.\nobjc[86451]: Class AVFAudioReceiver is implemented in both /opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavdevice.63.1.102.dylib (0x13b570378) and /Users/krishna/dev/vllm-lab/.venv/lib/python3.12/site-packages/cv2/.dylibs/libavdevice.61.3.100.dylib (0x13c0803f8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.\n"
+  },
+  {
+    "command": [
+      "/Users/krishna/dev/vllm-lab/.venv/bin/python",
+      "-m",
+      "e02",
+      "check",
+      "--main"
+    ],
+    "exit_code": 2,
+    "stdout": "",
+    "stderr": "objc[86505]: Class AVFFrameReceiver is implemented in both /opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavdevice.63.1.102.dylib (0x129048328) and /Users/krishna/dev/vllm-lab/.venv/lib/python3.12/site-packages/cv2/.dylibs/libavdevice.61.3.100.dylib (0x1293d83a8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.\nobjc[86505]: Class AVFAudioReceiver is implemented in both /opt/homebrew/Cellar/ffmpeg/9.0.2/lib/libavdevice.63.1.102.dylib (0x129048378) and /Users/krishna/dev/vllm-lab/.venv/lib/python3.12/site-packages/cv2/.dylibs/libavdevice.61.3.100.dylib (0x1293d83f8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.\nblocked: 20261020-141844-pilot-behavior/plan.json is not sealed: it predates sealed plans (fix round 1), so it cannot be resumed or used as gate evidence\n"
+  },
+  {
+    "command": [
+      "/Users/krishna/dev/vllm-lab/.venv/bin/python",
+      "-m",
+      "e02",
+      "pilot",
+      "behavior"
+    ],
+    "exit_code": 2,
+    "stdout": "",
+    "stderr": "blocked: Workload execution is suspended. On 2026-10-20 at 14:33 PDT Krishna said \"Don't run the experiment unless I tell you so.\" `pilot` and `main` start a model server and GPU work only with --execute. Pass --execute only after Krishna's new, explicit instruction to run that specific workload. The flag records that instruction; it does not grant it.\n"
+  },
+  {
+    "command": [
+      "/Users/krishna/dev/vllm-lab/.venv/bin/python",
+      "-m",
+      "e02",
+      "pilot",
+      "cost-low"
+    ],
+    "exit_code": 2,
+    "stdout": "",
+    "stderr": "blocked: Workload execution is suspended. On 2026-10-20 at 14:33 PDT Krishna said \"Don't run the experiment unless I tell you so.\" `pilot` and `main` start a model server and GPU work only with --execute. Pass --execute only after Krishna's new, explicit instruction to run that specific workload. The flag records that instruction; it does not grant it.\n"
+  },
+  {
+    "command": [
+      "/Users/krishna/dev/vllm-lab/.venv/bin/python",
+      "-m",
+      "e02",
+      "pilot",
+      "cost-pressure"
+    ],
+    "exit_code": 2,
+    "stdout": "",
+    "stderr": "blocked: Workload execution is suspended. On 2026-10-20 at 14:33 PDT Krishna said \"Don't run the experiment unless I tell you so.\" `pilot` and `main` start a model server and GPU work only with --execute. Pass --execute only after Krishna's new, explicit instruction to run that specific workload. The flag records that instruction; it does not grant it.\n"
+  },
+  {
+    "command": [
+      "/Users/krishna/dev/vllm-lab/.venv/bin/python",
+      "-m",
+      "e02",
+      "main",
+      "runs/not-authorized-main"
+    ],
+    "exit_code": 2,
+    "stdout": "",
+    "stderr": "blocked: Workload execution is suspended. On 2026-10-20 at 14:33 PDT Krishna said \"Don't run the experiment unless I tell you so.\" `pilot` and `main` start a model server and GPU work only with --execute. Pass --execute only after Krishna's new, explicit instruction to run that specific workload. The flag records that instruction; it does not grant it.\n"
+  },
+  {
+    "command": [
+      "/Users/krishna/dev/vllm-lab/.venv/bin/python",
+      "-m",
+      "e02",
+      "pilot",
+      "--help"
+    ],
+    "exit_code": 0,
+    "stdout": "usage: python -m e02 pilot [-h] [--execute] {behavior,cost-low,cost-pressure}\n\nWorkload execution is suspended. On 2026-10-20 at 14:33 PDT Krishna said\n\"Don't run the experiment unless I tell you so.\" `pilot` and `main` start a\nmodel server and GPU work only with --execute. Pass --execute only after\nKrishna's new, explicit instruction to run that specific workload. The flag\nrecords that instruction; it does not grant it.\n\npositional arguments:\n  {behavior,cost-low,cost-pressure}\n\noptions:\n  -h, --help            show this help message and exit\n  --execute             start the workload; pass only after Krishna's explicit\n                        instruction to run it\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Users/krishna/dev/vllm-lab/.venv/bin/python",
+      "-m",
+      "e02",
+      "main",
+      "--help"
+    ],
+    "exit_code": 0,
+    "stdout": "usage: python -m e02 main [-h] [--execute] root\n\nWorkload execution is suspended. On 2026-10-20 at 14:33 PDT Krishna said\n\"Don't run the experiment unless I tell you so.\" `pilot` and `main` start a\nmodel server and GPU work only with --execute. Pass --execute only after\nKrishna's new, explicit instruction to run that specific workload. The flag\nrecords that instruction; it does not grant it.\n\npositional arguments:\n  root\n\noptions:\n  -h, --help  show this help message and exit\n  --execute   start the workload; pass only after Krishna's explicit\n              instruction to run it\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Users/krishna/dev/vllm-lab/.venv/bin/python",
+      "-m",
+      "e02",
+      "corpus",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"frozen\": \"f201391309237e9c0dd41ca7f54c62c2824417c4fd71741339751f074840bfff\", \"rebuilt\": \"f201391309237e9c0dd41ca7f54c62c2824417c4fd71741339751f074840bfff\", \"identical\": true}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Users/krishna/dev/vllm-lab/.venv/bin/python",
+      "-m",
+      "e02",
+      "status",
+      "runs/20261020-143026-pilot-cost-low"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n \"root\": \"20261020-143026-pilot-cost-low\",\n \"bytes\": 511463,\n \"free_gib\": 19.58,\n \"consumed_hours\": 0.06,\n \"halts\": [],\n \"sealed\": false,\n \"unverifiable\": \"20261020-143026-pilot-cost-low/plan.json is not sealed: it predates sealed plans (fix round 1), so it cannot be resumed or used as gate evidence\",\n \"runs\": [\n  {\n   \"run_id\": \"p1-on\",\n   \"attempts\": 1,\n   \"recorded\": \"complete\",\n   \"verified\": null\n  },\n  {\n   \"run_id\": \"p1-off\",\n   \"attempts\": 1,\n   \"recorded\": \"complete\",\n   \"verified\": null\n  },\n  {\n   \"run_id\": \"p2-off\",\n   \"attempts\": 1,\n   \"recorded\": \"incomplete\",\n   \"verified\": null\n  },\n  {\n   \"run_id\": \"p2-on\",\n   \"attempts\": 0,\n   \"recorded\": \"planned\",\n   \"verified\": null\n  },\n  {\n   \"run_id\": \"p3-on\",\n   \"attempts\": 0,\n   \"recorded\": \"planned\",\n   \"verified\": null\n  },\n  {\n   \"run_id\": \"p3-off\",\n   \"attempts\": 0,\n   \"recorded\": \"planned\",\n   \"verified\": null\n  },\n  {\n   \"run_id\": \"p4-off\",\n   \"attempts\": 0,\n   \"recorded\": \"planned\",\n   \"verified\": null\n  },\n  {\n   \"run_id\": \"p4-on\",\n   \"attempts\": 0,\n   \"recorded\": \"planned\",\n   \"verified\": null\n  },\n  {\n   \"run_id\": \"p5-on\",\n   \"attempts\": 0,\n   \"recorded\": \"planned\",\n   \"verified\": null\n  },\n  {\n   \"run_id\": \"p5-off\",\n   \"attempts\": 0,\n   \"recorded\": \"planned\",\n   \"verified\": null\n  }\n ],\n \"complete\": 0,\n \"remaining\": 10,\n \"forecast_remaining_hours\": null\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Users/krishna/dev/vllm-lab/.venv/bin/python",
+      "-m",
+      "e02",
+      "verdict",
+      "runs/20261020-141844-pilot-behavior"
+    ],
+    "exit_code": 1,
+    "stdout": "{\n \"verdict\": \"fail\",\n \"reasons\": [\n  \"20261020-141844-pilot-behavior/plan.json is not sealed: it predates sealed plans (fix round 1), so it cannot be resumed or used as gate evidence\"\n ]\n}\n",
+    "stderr": ""
+  }
+]

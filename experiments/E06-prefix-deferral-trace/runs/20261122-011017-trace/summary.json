@@ -1,0 +1,410 @@
+[
+  {
+    "capacity": 497,
+    "bound": 0,
+    "step_ms": 10,
+    "ticks": 6311,
+    "peak": 497,
+    "counts": {
+      "prefill_tokens": 3448056,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 0,
+    "pauses": 0,
+    "ttft95_ms": 1620874.5,
+    "completion95_ms": 1696850.75,
+    "blocked_attempts": 0
+  },
+  {
+    "capacity": 497,
+    "bound": 2,
+    "step_ms": 10,
+    "ticks": 6311,
+    "peak": 497,
+    "counts": {
+      "prefill_tokens": 3448056,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 0,
+    "pauses": 0,
+    "ttft95_ms": 1620874.5,
+    "completion95_ms": 1696850.75,
+    "blocked_attempts": 0
+  },
+  {
+    "capacity": 591,
+    "bound": 0,
+    "step_ms": 10,
+    "ticks": 5470,
+    "peak": 591,
+    "counts": {
+      "prefill_tokens": 3447107,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 1,
+    "pauses": 0,
+    "ttft95_ms": 1598976.625,
+    "completion95_ms": 1688674.25,
+    "blocked_attempts": 1
+  },
+  {
+    "capacity": 591,
+    "bound": 2,
+    "step_ms": 10,
+    "ticks": 5469,
+    "peak": 591,
+    "counts": {
+      "prefill_tokens": 3447109,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 1,
+    "pauses": 2,
+    "ttft95_ms": 1598977.625,
+    "completion95_ms": 1688675.25,
+    "blocked_attempts": 3
+  },
+  {
+    "capacity": 709,
+    "bound": 0,
+    "step_ms": 10,
+    "ticks": 5127,
+    "peak": 709,
+    "counts": {
+      "prefill_tokens": 3447185,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 1,
+    "pauses": 0,
+    "ttft95_ms": 1595120.625,
+    "completion95_ms": 1685860.0,
+    "blocked_attempts": 1
+  },
+  {
+    "capacity": 709,
+    "bound": 2,
+    "step_ms": 10,
+    "ticks": 5127,
+    "peak": 709,
+    "counts": {
+      "prefill_tokens": 3447187,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 1,
+    "pauses": 2,
+    "ttft95_ms": 1595121.625,
+    "completion95_ms": 1685861.0,
+    "blocked_attempts": 3
+  },
+  {
+    "capacity": 945,
+    "bound": 0,
+    "step_ms": 10,
+    "ticks": 4736,
+    "peak": 945,
+    "counts": {
+      "prefill_tokens": 3446520,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 0,
+    "pauses": 0,
+    "ttft95_ms": 1594352.0,
+    "completion95_ms": 1681890.0,
+    "blocked_attempts": 0
+  },
+  {
+    "capacity": 945,
+    "bound": 2,
+    "step_ms": 10,
+    "ticks": 4736,
+    "peak": 945,
+    "counts": {
+      "prefill_tokens": 3446520,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 0,
+    "pauses": 0,
+    "ttft95_ms": 1594352.0,
+    "completion95_ms": 1681890.0,
+    "blocked_attempts": 0
+  },
+  {
+    "capacity": 1417,
+    "bound": 0,
+    "step_ms": 10,
+    "ticks": 4517,
+    "peak": 1416,
+    "counts": {
+      "prefill_tokens": 3446596,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 1,
+    "pauses": 0,
+    "ttft95_ms": 1587075.625,
+    "completion95_ms": 1680923.0,
+    "blocked_attempts": 1
+  },
+  {
+    "capacity": 1417,
+    "bound": 2,
+    "step_ms": 10,
+    "ticks": 4517,
+    "peak": 1416,
+    "counts": {
+      "prefill_tokens": 3446520,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 0,
+    "pauses": 2,
+    "ttft95_ms": 1587075.625,
+    "completion95_ms": 1680885.0,
+    "blocked_attempts": 2
+  },
+  {
+    "capacity": 14472,
+    "bound": 0,
+    "step_ms": 10,
+    "ticks": 4269,
+    "peak": 7522,
+    "counts": {
+      "prefill_tokens": 3402488,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 0,
+    "pauses": 0,
+    "ttft95_ms": 1618491.5,
+    "completion95_ms": 1659642.25,
+    "blocked_attempts": 0
+  },
+  {
+    "capacity": 14472,
+    "bound": 2,
+    "step_ms": 10,
+    "ticks": 4269,
+    "peak": 7522,
+    "counts": {
+      "prefill_tokens": 3402488,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 0,
+    "pauses": 0,
+    "ttft95_ms": 1618491.5,
+    "completion95_ms": 1659642.25,
+    "blocked_attempts": 0
+  },
+  {
+    "capacity": 497,
+    "bound": 0,
+    "step_ms": 5,
+    "ticks": 6311,
+    "peak": 497,
+    "counts": {
+      "prefill_tokens": 3448056,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 0,
+    "pauses": 0,
+    "ttft95_ms": 1593594.5,
+    "completion95_ms": 1667302.75,
+    "blocked_attempts": 0
+  },
+  {
+    "capacity": 497,
+    "bound": 2,
+    "step_ms": 5,
+    "ticks": 6311,
+    "peak": 497,
+    "counts": {
+      "prefill_tokens": 3448056,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 0,
+    "pauses": 0,
+    "ttft95_ms": 1593594.5,
+    "completion95_ms": 1667302.75,
+    "blocked_attempts": 0
+  },
+  {
+    "capacity": 591,
+    "bound": 0,
+    "step_ms": 5,
+    "ticks": 5470,
+    "peak": 591,
+    "counts": {
+      "prefill_tokens": 3447107,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 1,
+    "pauses": 0,
+    "ttft95_ms": 1576220.375,
+    "completion95_ms": 1662653.25,
+    "blocked_attempts": 1
+  },
+  {
+    "capacity": 591,
+    "bound": 2,
+    "step_ms": 5,
+    "ticks": 5469,
+    "peak": 591,
+    "counts": {
+      "prefill_tokens": 3447109,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 1,
+    "pauses": 2,
+    "ttft95_ms": 1576221.375,
+    "completion95_ms": 1662654.25,
+    "blocked_attempts": 3
+  },
+  {
+    "capacity": 709,
+    "bound": 0,
+    "step_ms": 5,
+    "ticks": 5127,
+    "peak": 709,
+    "counts": {
+      "prefill_tokens": 3447185,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 1,
+    "pauses": 0,
+    "ttft95_ms": 1574311.875,
+    "completion95_ms": 1662658.75,
+    "blocked_attempts": 1
+  },
+  {
+    "capacity": 709,
+    "bound": 2,
+    "step_ms": 5,
+    "ticks": 5127,
+    "peak": 709,
+    "counts": {
+      "prefill_tokens": 3447187,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 1,
+    "pauses": 2,
+    "ttft95_ms": 1574312.875,
+    "completion95_ms": 1662659.75,
+    "blocked_attempts": 3
+  },
+  {
+    "capacity": 945,
+    "bound": 0,
+    "step_ms": 5,
+    "ticks": 4736,
+    "peak": 945,
+    "counts": {
+      "prefill_tokens": 3446520,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 0,
+    "pauses": 0,
+    "ttft95_ms": 1575557.0,
+    "completion95_ms": 1660563.75,
+    "blocked_attempts": 0
+  },
+  {
+    "capacity": 945,
+    "bound": 2,
+    "step_ms": 5,
+    "ticks": 4736,
+    "peak": 945,
+    "counts": {
+      "prefill_tokens": 3446520,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 0,
+    "pauses": 0,
+    "ttft95_ms": 1575557.0,
+    "completion95_ms": 1660563.75,
+    "blocked_attempts": 0
+  },
+  {
+    "capacity": 1417,
+    "bound": 0,
+    "step_ms": 5,
+    "ticks": 4517,
+    "peak": 1416,
+    "counts": {
+      "prefill_tokens": 3446596,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 1,
+    "pauses": 0,
+    "ttft95_ms": 1570123.125,
+    "completion95_ms": 1661194.25,
+    "blocked_attempts": 1
+  },
+  {
+    "capacity": 1417,
+    "bound": 2,
+    "step_ms": 5,
+    "ticks": 4517,
+    "peak": 1416,
+    "counts": {
+      "prefill_tokens": 3446520,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 0,
+    "pauses": 2,
+    "ttft95_ms": 1570123.125,
+    "completion95_ms": 1661163.75,
+    "blocked_attempts": 2
+  },
+  {
+    "capacity": 14472,
+    "bound": 0,
+    "step_ms": 5,
+    "ticks": 4269,
+    "peak": 7522,
+    "counts": {
+      "prefill_tokens": 3402488,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 0,
+    "pauses": 0,
+    "ttft95_ms": 1602491.5,
+    "completion95_ms": 1642305.5,
+    "blocked_attempts": 0
+  },
+  {
+    "capacity": 14472,
+    "bound": 2,
+    "step_ms": 5,
+    "ticks": 4269,
+    "peak": 7522,
+    "counts": {
+      "prefill_tokens": 3402488,
+      "compressions": 291
+    },
+    "completed": 256,
+    "preemptions": 0,
+    "pauses": 0,
+    "ttft95_ms": 1602491.5,
+    "completion95_ms": 1642305.5,
+    "blocked_attempts": 0
+  }
+]

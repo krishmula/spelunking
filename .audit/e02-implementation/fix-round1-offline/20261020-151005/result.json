@@ -1,0 +1,31 @@
+{
+  "candidate_rows": 166,
+  "decisions": 19,
+  "deterministic_report": true,
+  "digests": 7731,
+  "distribution_rows": 909,
+  "joined": 24,
+  "limits": "Earlier unsealed pilot; replay compatibility is not current pilot qualification.",
+  "original_evidence_unchanged": true,
+  "report_hashes": {
+    "decisions.csv": "aec66f808221d4cd9c26f26ef4d41db35b788482105a46a7a1ee75ec859ceea2",
+    "distributions.csv": "612b7aacde6e6915deec2ea5d2633bb3009423cd2f01047cb0509c7abb438231",
+    "index.html": "41eebc6f20c0c46b26a57c37e844234d03ab4ed7f2cf4b9ee4e2a90d72818118",
+    "runs/behavior.a1.html": "ad71edd1e01f3f9b166c7d4fec85ff911826f0bc6ebdc20d3294cc17e5468172",
+    "summary.csv": "7d694d0589480f2ae30c44f33be73c6baed95460c9ebbf9e1e2275112fd16dbe"
+  },
+  "scratch": "/Users/krishna/dev/spelunking/.audit/e02-implementation/fix-round1-offline/20261020-151005/20261020-141844-pilot-behavior",
+  "snapshots": 51,
+  "source": "/Users/krishna/dev/spelunking/experiments/E02-preemption-rehit/runs/20261020-141844-pilot-behavior",
+  "source_hashes": {
+    "attempts/behavior.a1/attempt.json": "3e7df8920afe738f842e08d293e74ef1ad15427c07deae01eb91525143429150",
+    "attempts/behavior.a1/client.jsonl": "a1907f67e7cc4ebe297c986af204906c91e3b0648f36be82c6d5ab3979ea6db2",
+    "attempts/behavior.a1/events.jsonl": "11eb14fbeee8a4388d8283d227b96361c87b2f2eb2e4db87b568f9103f796a85",
+    "attempts/behavior.a1/server.log": "469212effa7d40de03f72d910b456841f9a1774d38bc9d9718aa47307ed1f28c",
+    "attempts/behavior.a1/snapshots.jsonl": "3ce01527ba57facb50920ad6b393daa5c4e771ad33f603dd3bef6f44fca69297",
+    "env.json": "caf966896913bf564f4ebf20ff9c818d59a7bb92c9e91bc7db4406997e39ad37",
+    "plan.json": "73712d6483193845c3fc2e3261ed10350b2b0cd86107c3a6c15cda781da0fe22",
+    "verdict.json": "a403d595f8da6adbe4f0e71978ab698aca4a0f825985558202f68535c7eb9263"
+  },
+  "status": "complete"
+}

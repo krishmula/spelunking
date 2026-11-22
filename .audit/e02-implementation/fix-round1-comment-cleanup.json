@@ -1,0 +1,14 @@
+{
+  "removed_comment_tokens": {
+    "e02/corpus.py": 4,
+    "e02/observer.py": 1,
+    "tests/test_history_metrics.py": 5,
+    "tests/test_replay.py": 34,
+    "tests/test_report.py": 2
+  },
+  "total": 46,
+  "retained": [
+    "e02/__main__.py noqa E402"
+  ],
+  "docstrings_changed": 0
+}
