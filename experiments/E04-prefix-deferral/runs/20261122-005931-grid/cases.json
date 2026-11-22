@@ -1,0 +1,10286 @@
+[
+  {
+    "free": 0,
+    "shared": 0,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 0,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 0,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 0,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 0,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 0,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 0,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 0,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 1,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 0,
+    "shared": 1,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 1,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 0,
+    "shared": 1,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 1,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 0,
+    "shared": 1,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 0,
+    "shared": 1,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 0,
+    "shared": 1,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 0,
+    "shared": 2,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 0,
+    "shared": 2,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 2,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 0,
+    "shared": 2,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 2,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 0,
+    "shared": 2,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 0,
+    "shared": 2,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 0,
+    "shared": 2,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 0,
+    "shared": 3,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 0,
+    "shared": 3,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 3,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 0,
+    "shared": 3,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 3,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 0,
+    "shared": 3,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 0,
+    "shared": 3,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 0,
+    "shared": 3,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 0,
+    "shared": 4,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 4,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 4,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 4,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 4,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 4,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 4,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 4,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 5,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 5,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 5,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 5,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 5,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 5,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 5,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 5,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 6,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 6,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 6,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 6,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 6,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 6,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 6,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 6,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 7,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 7,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 7,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 7,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 7,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 7,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 7,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 7,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 8,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 8,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 8,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 8,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 0,
+    "shared": 8,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 8,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 8,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 0,
+    "shared": 8,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 0,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 0,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 0,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 0,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 0,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 0,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 0,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 0,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 1,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 1,
+    "shared": 1,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 1,
+    "shared": 1,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 1,
+    "shared": 1,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 1,
+    "shared": 1,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 1,
+    "shared": 1,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 1,
+    "shared": 1,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 1,
+    "shared": 1,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 1,
+    "shared": 2,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 1,
+    "shared": 2,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 2,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 1,
+    "shared": 2,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 2,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 1,
+    "shared": 2,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 1,
+    "shared": 2,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 1,
+    "shared": 2,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 1,
+    "shared": 3,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 1,
+    "shared": 3,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 3,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 1,
+    "shared": 3,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 3,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 1,
+    "shared": 3,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 1,
+    "shared": 3,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 1,
+    "shared": 3,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 1,
+    "shared": 4,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 4,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 4,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 4,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 4,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 4,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 4,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 4,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 5,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 5,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 5,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 5,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 5,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 5,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 5,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 5,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 6,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 6,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 6,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 6,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 6,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 6,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 6,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 6,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 7,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 7,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 7,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 7,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 7,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 7,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 7,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 7,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 8,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 8,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 8,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 8,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 1,
+    "shared": 8,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 8,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 8,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 1,
+    "shared": 8,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 0,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 0,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 0,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 0,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 0,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 0,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 0,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 0,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 1,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 2,
+    "shared": 1,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 2,
+    "shared": 1,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 2,
+    "shared": 1,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 2,
+    "shared": 1,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 2,
+    "shared": 1,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 2,
+    "shared": 1,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 2,
+    "shared": 1,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 2,
+    "shared": 2,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 2,
+    "shared": 2,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 2,
+    "shared": 2,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 2,
+    "shared": 2,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 2,
+    "shared": 2,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 2,
+    "shared": 2,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 2,
+    "shared": 2,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 2,
+    "shared": 2,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 2,
+    "shared": 3,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 2,
+    "shared": 3,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 3,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 2,
+    "shared": 3,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 3,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 2,
+    "shared": 3,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 2,
+    "shared": 3,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 2,
+    "shared": 3,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 2,
+    "shared": 4,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 4,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 4,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 4,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 4,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 4,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 4,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 4,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 5,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 5,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 5,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 5,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 5,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 5,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 5,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 5,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 6,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 6,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 6,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 6,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 6,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 6,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 6,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 6,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 7,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 7,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 7,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 7,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 7,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 7,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 7,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 7,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 8,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 8,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 8,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 8,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 2,
+    "shared": 8,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 8,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 8,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 2,
+    "shared": 8,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 0,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 0,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 0,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 0,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 0,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 0,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 0,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 0,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 1,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 3,
+    "shared": 1,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 3,
+    "shared": 1,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 3,
+    "shared": 1,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 3,
+    "shared": 1,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 3,
+    "shared": 1,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 3,
+    "shared": 1,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 3,
+    "shared": 1,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 3,
+    "shared": 2,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 3,
+    "shared": 2,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 3,
+    "shared": 2,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 3,
+    "shared": 2,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 3,
+    "shared": 2,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 3,
+    "shared": 2,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 3,
+    "shared": 2,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 3,
+    "shared": 2,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 3,
+    "shared": 3,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 3,
+    "shared": 3,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 3,
+    "shared": 3,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 3,
+    "shared": 3,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 3,
+    "shared": 3,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 3,
+    "shared": 3,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 3,
+    "shared": 3,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 3,
+    "shared": 3,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 3,
+    "shared": 4,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 4,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 4,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 4,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 4,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 4,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 4,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 4,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 5,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 5,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 5,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 5,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 5,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 5,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 5,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 5,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 6,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 6,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 6,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 6,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 6,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 6,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 6,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 6,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 7,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 7,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 7,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 7,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 7,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 7,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 7,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 7,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 8,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 8,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 1,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 8,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 8,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 3,
+    "shared": 8,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 8,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 8,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        0,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 3,
+    "shared": 8,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 2,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 13,
+    "preemptions": [
+      [
+        2,
+        "independent"
+      ]
+    ],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 0,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 4,
+    "shared": 0,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 4,
+    "shared": 0,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 4,
+    "shared": 0,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 4,
+    "shared": 0,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 4,
+    "shared": 0,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 4,
+    "shared": 0,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 4,
+    "shared": 0,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 4,
+    "shared": 1,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 4,
+    "shared": 1,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 4,
+    "shared": 1,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 4,
+    "shared": 1,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 4,
+    "shared": 1,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 4,
+    "shared": 1,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 4,
+    "shared": 1,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 4,
+    "shared": 1,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 4,
+    "shared": 2,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 4,
+    "shared": 2,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 4,
+    "shared": 2,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 4,
+    "shared": 2,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 4,
+    "shared": 2,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 4,
+    "shared": 2,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 4,
+    "shared": 2,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 4,
+    "shared": 2,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 4,
+    "shared": 3,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 4,
+    "shared": 3,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 4,
+    "shared": 3,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 4,
+    "shared": 3,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 4,
+    "shared": 3,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 4,
+    "shared": 3,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 4,
+    "shared": 3,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 4,
+    "shared": 3,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 4,
+    "shared": 4,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 4,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 4,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 4,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 4,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 4,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 4,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 4,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 5,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 5,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 5,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 5,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 5,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 5,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 5,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 5,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 6,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 6,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 6,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 6,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 6,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 6,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 6,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 6,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 7,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 7,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 7,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 7,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 7,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 7,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 7,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 7,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 8,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 8,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 8,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 8,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 8,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 8,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 8,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 4,
+    "shared": 8,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 0,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 5,
+    "shared": 0,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 5,
+    "shared": 0,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 5,
+    "shared": 0,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 5,
+    "shared": 0,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 5,
+    "shared": 0,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 5,
+    "shared": 0,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 5,
+    "shared": 0,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 0,
+    "original_blocks_freed": 4,
+    "peak_live": 13,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 0,
+      "2": 1,
+      "4": 2,
+      "6": 3
+    }
+  },
+  {
+    "free": 5,
+    "shared": 1,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 5,
+    "shared": 1,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 5,
+    "shared": 1,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 5,
+    "shared": 1,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 5,
+    "shared": 1,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 5,
+    "shared": 1,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 5,
+    "shared": 1,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 5,
+    "shared": 1,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 1,
+    "original_blocks_freed": 4,
+    "peak_live": 14,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 1,
+      "2": 2,
+      "4": 3,
+      "6": 13
+    }
+  },
+  {
+    "free": 5,
+    "shared": 2,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 5,
+    "shared": 2,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 5,
+    "shared": 2,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 5,
+    "shared": 2,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 5,
+    "shared": 2,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 5,
+    "shared": 2,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 5,
+    "shared": 2,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 5,
+    "shared": 2,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 2,
+    "original_blocks_freed": 4,
+    "peak_live": 15,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 2,
+      "2": 3,
+      "4": 13,
+      "6": 14
+    }
+  },
+  {
+    "free": 5,
+    "shared": 3,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 5,
+    "shared": 3,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 5,
+    "shared": 3,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 5,
+    "shared": 3,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 5,
+    "shared": 3,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 5,
+    "shared": 3,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 5,
+    "shared": 3,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 5,
+    "shared": 3,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 3,
+    "original_blocks_freed": 4,
+    "peak_live": 16,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 3,
+      "2": 13,
+      "4": 14,
+      "6": 15
+    }
+  },
+  {
+    "free": 5,
+    "shared": 4,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 4,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 4,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 4,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 4,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 4,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 4,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 4,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 4,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 5,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 5,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 5,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 5,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 5,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 5,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 5,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 5,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 3,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 6,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 6,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 6,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 6,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 6,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 6,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 6,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 6,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 2,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 7,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 7,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 7,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 7,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 7,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 7,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 7,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 7,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 1,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 8,
+    "sibling_finish": 1,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 8,
+    "sibling_finish": 1,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 8,
+    "sibling_finish": 2,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 8,
+    "sibling_finish": 2,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 8,
+    "sibling_finish": 3,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 8,
+    "sibling_finish": 3,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 8,
+    "sibling_finish": 4,
+    "bound": 0,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  },
+  {
+    "free": 5,
+    "shared": 8,
+    "sibling_finish": 4,
+    "bound": 2,
+    "compressed_at": 0,
+    "destination_blocks_new": 4,
+    "original_blocks_freed": 0,
+    "peak_live": 17,
+    "preemptions": [],
+    "completed": [
+      "sibling",
+      "target",
+      "independent"
+    ],
+    "token_to_destination": {
+      "0": 13,
+      "2": 14,
+      "4": 15,
+      "6": 16
+    }
+  }
+]

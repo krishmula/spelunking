@@ -1,0 +1,227 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  body { font-family: var(--font-sans, system-ui); color: var(--foreground); }
+  .wrap { max-width: 100%; }
+  h2 { font-size: 15px; margin: 26px 0 4px; }
+  p.note { font-size: 12.5px; color: var(--muted-foreground); margin: 2px 0 8px; line-height: 1.45; }
+  .legend { display: flex; flex-wrap: wrap; gap: 12px; font-size: 12px; margin: 4px 0 6px; }
+  .legend span { display: inline-flex; align-items: center; gap: 5px; }
+  .sw { width: 12px; height: 12px; border-radius: 2px; display: inline-block; }
+  svg { width: 100%; display: block; overflow: visible; }
+  svg text { font-family: var(--font-sans, system-ui); fill: var(--foreground); }
+  .tick { font-size: 10px; fill: var(--muted-foreground); }
+  .lane { font-size: 11px; }
+  .lbl { font-size: 10.5px; fill: #fff; pointer-events: none; }
+  .lbl.dark { fill: #111; }
+  #tip { position: fixed; pointer-events: none; background: var(--popover); color: var(--popover-foreground);
+         border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; font-size: 12px; display: none;
+         max-width: 280px; z-index: 9; }
+  table { border-collapse: collapse; font-size: 12px; margin: 6px 0; }
+  td, th { padding: 3px 10px 3px 0; text-align: right; } td:first-child, th:first-child { text-align: left; }
+  th { color: var(--muted-foreground); font-weight: 500; }
+  .mock { color: var(--warning); font-weight: 600; }
+</style></head>
+<body><div class="wrap">
+<div id="tip"></div>
+
+<div class="legend">
+  <span><i class="sw" style="background:#34c38f"></i>prefill (reading the prompt)</span>
+  <span><i class="sw" style="background:#4f8ef7"></i>weights (4-bit matmuls)</span>
+  <span><i class="sw" style="background:#f2a93b"></i>attention</span>
+  <span><i class="sw" style="background:#a77bf3"></i>KV write + other small kernels</span>
+  <span><i class="sw" style="background:#9aa3b2"></i>CPU / idle</span>
+  <span><i class="sw" style="background:#e5534b"></i>unexplained</span>
+</div>
+<p class="note">Hover any bar for its number. Totals are measured (run 20261012-011313-full). Where a bar is split
+finer than we measured, the note under the chart says so.</p>
+
+<h2>1. One request, start to finish (seconds)</h2>
+<p class="note">Prefill reads the whole prompt once, then decode makes one token per step. 128 tokens of output.
+The 8k prompt costs 10x the prefill, but each decode step only gets 1.5x slower.</p>
+<div id="c1"></div>
+
+<h2>2. One decode step (milliseconds)</h2>
+<p class="note">Zoomed in on a single token. The GPU walks through 36 identical layers, then the output layer
+(lm_head). The dashed line is the floor: the time just to stream 2.26 GB of weights at the best measured
+bandwidth (133 GB/s). The "by kind" row is the same time regrouped by colour, not the real order.</p>
+<div id="c2"></div>
+
+<h2>3. Inside one layer (milliseconds)</h2>
+<p class="note">The real order of work in one layer. Matmul times are measured. The purple "small kernel" bars
+were measured only as one total for the whole step (5.1 ms), so here that total is <span class="mock">spread
+evenly for illustration</span>. Only attention changes between 1k and 8k.</p>
+<div id="c3"></div>
+
+<h2>4. Eight 1k requests at once</h2>
+<p class="note"><span class="mock">Mock.</span> The measured numbers are TTFT 6.2 s, time per token 119.8 ms,
+inter-token median 87.4 ms. The timeline below is a simple simulation of the scheduler (2048 tokens per step,
+first come first served) to show why: requests wait in line for prefill, and while later prompts are prefilled,
+earlier requests' decode steps get stretched.</p>
+<div id="c4"></div>
+<div id="simtab"></div>
+
+<h2>5. What an 8-row step should cost vs what it does</h2>
+<p class="note">If the weights are read once for all 8 rows, the bill should be roughly weights + 8x attention +
+other. The measured step is 2.5x that. That red gap is R02-C8's question.</p>
+<div id="c5"></div>
+</div>
+
+<script>
+const C = {pre:'#34c38f', w:'#4f8ef7', w2:'#3b78e0', a:'#f2a93b', o:'#a77bf3', g:'#9aa3b2', r:'#e5534b'};
+const tip = document.getElementById('tip');
+let pid = 0;
+
+function trace(id, {max, unit, ticks, lanes, markers = [], laneH = 22, gap = 8, labelW = 92}) {
+  const W = 700, plotW = W - labelW - 8;
+  const H = lanes.length * (laneH + gap) + 24;
+  const x = v => labelW + v / max * plotW;
+  let s = `<svg viewBox="0 0 ${W} ${H}"><defs>
+    <pattern id="st${++pid}" width="5" height="10" patternUnits="userSpaceOnUse">
+      <rect width="5" height="10" fill="${C.w}"/><rect width="1.2" height="10" fill="rgba(255,255,255,.55)"/></pattern>
+    <pattern id="hx${pid}" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="${C.r}" opacity=".35"/><rect width="2" height="6" fill="${C.r}"/></pattern></defs>`;
+  for (const t of ticks) {
+    s += `<line x1="${x(t)}" x2="${x(t)}" y1="0" y2="${H - 18}" stroke="var(--border)" />`;
+    s += `<text class="tick" x="${x(t)}" y="${H - 5}" text-anchor="middle">${t}${unit}</text>`;
+  }
+  lanes.forEach((ln, i) => {
+    const y = i * (laneH + gap) + 4;
+    s += `<text class="lane" x="0" y="${y + laneH / 2 + 4}">${ln.name}</text>`;
+    for (const sp of ln.spans) {
+      const fill = sp.fill === 'stripe' ? `url(#st${pid})` : sp.fill === 'hatch' ? `url(#hx${pid})` : sp.fill;
+      const w = Math.max(sp.d / max * plotW, 0.6);
+      s += `<rect x="${x(sp.s)}" y="${y}" width="${w}" height="${laneH}" rx="2" fill="${fill}"
+              opacity="${sp.op ?? 1}" stroke="var(--background)" stroke-width="${sp.thin ? 0.4 : 0.8}"
+              data-tip="${(sp.tip || sp.label || '').replace(/"/g, '&quot;')}"/>`;
+      if (sp.label && w > sp.label.length * 5.8 + 6)
+        s += `<text class="lbl${sp.dark ? ' dark' : ''}" x="${x(sp.s) + 4}" y="${y + laneH / 2 + 4}">${sp.label}</text>`;
+    }
+  });
+  for (const m of markers) {
+    s += `<line x1="${x(m.v)}" x2="${x(m.v)}" y1="-2" y2="${H - 18}" stroke="${m.color || 'var(--foreground)'}"
+            stroke-dasharray="4 3" stroke-width="1.3" />`;
+    s += `<text class="tick" x="${x(m.v) + (m.end ? -3 : 3)}" y="${m.y ?? -4}" text-anchor="${m.end ? 'end' : 'start'}" style="fill:${m.color || 'var(--foreground)'}">${m.label}</text>`;
+  }
+  s += '</svg>';
+  document.getElementById(id).innerHTML = s;
+}
+document.addEventListener('mousemove', e => {
+  const t = e.target.closest('[data-tip]');
+  if (t && t.dataset.tip) { tip.style.display = 'block'; tip.textContent = t.dataset.tip;
+    tip.style.left = Math.min(e.clientX + 12, innerWidth - 290) + 'px'; tip.style.top = e.clientY + 14 + 'px'; }
+  else tip.style.display = 'none';
+});
+
+// ---- 1. whole requests
+const steps = 127;
+trace('c1', { max: 18.5, unit: 's', ticks: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18], lanes: [
+  { name: '1k x1', spans: [
+    { s: 0, d: 1.31, fill: C.pre, label: 'prefill', tip: 'Prefill 1,024 prompt tokens: 1.31 s (time to first token)' },
+    { s: 1.31, d: steps * 0.0230, fill: 'stripe', label: 'decode', tip: '127 more tokens x 23.0 ms = 2.9 s. Each stripe is a few steps.' } ] },
+  { name: '8k x1', spans: [
+    { s: 0, d: 13.38, fill: C.pre, label: 'prefill 8,192 tokens: 13.4 s', tip: 'Prefill 8,192 prompt tokens: 13.4 s' },
+    { s: 13.38, d: steps * 0.0359, fill: 'stripe', label: 'decode', tip: '127 more tokens x 35.9 ms = 4.6 s' } ] },
+]});
+
+// ---- 2 & 3. one step
+const kind = { q: 1.809, k: 0.615, v: 0.626, o: 1.805, gate: 4.043, up: 4.072, down: 4.198, lm: 1.85 };
+const scale = 17.64 / 19.01;               // kinds timed separately add overhead; scale to the one-pass 17.64 ms
+const per = k => kind[k] * scale / 36;
+const lm = kind.lm * scale, other = 5.07 / 36, idle = 0.03;
+function layer(attn) {
+  const o4 = other / 4;
+  return [
+    ['norm', o4, C.o, 'RMSNorm'], ['q', per('q'), C.w, 'q_proj matmul'], ['k', per('k'), C.w2, 'k_proj matmul'],
+    ['v', per('v'), C.w, 'v_proj matmul'], ['rope+kv', o4, C.o, 'RoPE + write this token into the KV cache'],
+    ['attn', attn, C.a, 'attention over the whole context'], ['o', per('o'), C.w2, 'o_proj matmul'],
+    ['add+norm', o4, C.o, 'residual add + RMSNorm'], ['gate', per('gate'), C.w, 'gate_proj matmul (MLP)'],
+    ['up', per('up'), C.w2, 'up_proj matmul (MLP)'], ['silu', o4, C.o, 'SiLU x up, residual add'],
+    ['down', per('down'), C.w, 'down_proj matmul (MLP)'] ];
+}
+function stepLanes(name, attnTotal, measured) {
+  const L = layer(attnTotal / 36), lt = L.reduce((a, b) => a + b[1], 0);
+  const byLayer = [];
+  for (let i = 0; i < 36; i++) byLayer.push({ s: i * lt, d: lt, fill: i % 2 ? C.w2 : C.w, thin: true,
+    tip: `Layer ${i + 1} of 36: ${lt.toFixed(3)} ms` });
+  byLayer.push({ s: 36 * lt, d: lm, fill: C.w, label: 'lm', tip: `lm_head (pick the next token from 151,936): ${lm.toFixed(2)} ms` });
+  byLayer.push({ s: 36 * lt + lm, d: idle, fill: C.g, tip: 'GPU idle waiting for the CPU: 0.03 ms' });
+  const W = 17.64, A = attnTotal, O = 5.07;
+  return [
+    { name: `${name} CPU`, spans: [{ s: 0, d: 3, fill: C.g, op: .55, label: 'prepare next step',
+      tip: 'The CPU schedules the NEXT step while the GPU runs this one (async scheduling), so its time is hidden. Width is schematic.' }] },
+    { name: `${name} GPU`, spans: byLayer },
+    { name: 'by kind', spans: [
+      { s: 0, d: W, fill: C.w, label: `weights ${W} ms`, tip: `All 253 matmuls, timed alone: ${W} ms (96% of best bandwidth)` },
+      { s: W, d: A, fill: C.a, label: `attn ${A}`, tip: `Attention: ${A} ms (slope 1.42 ms per 1k tokens of context)` },
+      { s: W + A, d: O, fill: C.o, label: 'other 5.1', tip: 'KV write + norms + RoPE + activations + sampling, plus any extra cost of matmuls inside the engine: 5.07 ms' },
+      { s: W + A + O, d: idle, fill: C.g, tip: 'Idle 0.03 ms' } ] },
+  ];
+}
+trace('c2', { max: 36, unit: '', ticks: [0, 5, 10, 15, 20, 25, 30, 35], laneH: 20, gap: 6,
+  lanes: [...stepLanes('1k', 1.45), { name: '', spans: [] }, ...stepLanes('8k', 11.62)],
+  markers: [{ v: 16.96, label: 'floor 17.0 ms', color: 'var(--destructive)' },
+            { v: 24.2, label: '1k step 24.2 ms' }, { v: 34.4, label: '8k step 34.4 ms', end: true }] });
+
+function layerLane(name, attn) {
+  let t = 0;
+  return { name, spans: layer(attn).map(([lbl, d, fill, tip]) => {
+    const sp = { s: t, d, fill, label: lbl, tip: `${tip}: ${(d * 1000).toFixed(0)} µs` }; t += d; return sp; }) };
+}
+trace('c3', { max: 0.95, unit: '', ticks: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9], laneH: 26,
+  lanes: [layerLane('layer @ 1k', 1.45 / 36), layerLane('layer @ 8k', 11.62 / 36)] });
+
+// ---- 4. 8 requests, simulated
+const P = 1.28;                              // ms per prefill token (1k alone: 1.31 s)
+const dec = n => n ? 23 + (87.4 - 23) * (n - 1) / 7 : 0;  // assumed: step cost grows linearly to the measured 87.4
+const R = Array.from({ length: 8 }, (_, i) => ({ i, left: 1024, made: 0, spans: [], ttft: null, end: null }));
+let t = 0;
+while (R.some(r => r.made < 128)) {
+  const decoding = R.filter(r => r.left === 0 && r.made < 128);
+  let budget = 2048 - decoding.length, pre = [];
+  for (const r of R) if (r.left > 0 && budget > 0) { const n = Math.min(r.left, budget); pre.push([r, n]); budget -= n; }
+  const preTok = pre.reduce((a, b) => a + b[1], 0);
+  const d = dec(decoding.length) + P * preTok;
+  for (const r of decoding) {
+    const mixed = preTok > 0;
+    r.spans.push({ s: t / 1000, d: d / 1000, fill: mixed ? C.w2 : 'stripe', op: mixed ? .55 : 1, thin: true,
+      tip: mixed ? `Decode step stretched to ${(d / 1000).toFixed(2)} s because ${preTok} prompt tokens of other requests share it`
+                 : `Decode, ${decoding.length} rows per step: ${d.toFixed(0)} ms per step` });
+    r.made++; if (r.made === 128) r.end = (t + d) / 1000;
+  }
+  for (const [r, n] of pre) {
+    r.spans.push({ s: t / 1000, d: d / 1000, fill: C.pre, thin: true, tip: `Prefill ${n} of its prompt tokens in this step` });
+    r.left -= n; if (r.left === 0) { r.made = 1; r.ttft = (t + d) / 1000; }
+  }
+  for (const r of R) if (r.left > 0 && !pre.find(p => p[0] === r))
+    r.spans.push({ s: t / 1000, d: d / 1000, fill: C.g, op: .3, thin: true, tip: 'Waiting in line: the step budget is full' });
+  t += d;
+}
+const end = Math.max(...R.map(r => r.end));
+trace('c4', { max: Math.ceil(end / 2) * 2, unit: 's', ticks: Array.from({ length: Math.ceil(end / 2) + 1 }, (_, i) => i * 2),
+  laneH: 16, gap: 5, labelW: 60, lanes: R.map(r => ({ name: `req ${r.i + 1}`, spans: r.spans })) });
+const med = a => { const s = [...a].sort((x, y) => x - y); return (s[3] + s[4]) / 2; };
+const ttft = med(R.map(r => r.ttft)), tpot = med(R.map(r => (r.end - r.ttft) / 127 * 1000));
+document.getElementById('simtab').innerHTML = `<table><tr><th></th><th>simulated</th><th>measured</th></tr>
+  <tr><td>Time to first token (median)</td><td>${ttft.toFixed(1)} s</td><td>6.2 s</td></tr>
+  <tr><td>Time per token (median)</td><td>${tpot.toFixed(0)} ms</td><td>119.8 ms</td></tr>
+  <tr><td>Pure decode step, 8 rows</td><td>87 ms (input)</td><td>87.4 ms</td></tr></table>`;
+console.log('sim', ttft, tpot, end);
+
+// ---- 5. expected vs measured 8-row step
+trace('c5', { max: 92, unit: '', ticks: [0, 10, 20, 30, 40, 50, 60, 70, 80, 90], laneH: 26, labelW: 110, lanes: [
+  { name: '1 row (measured)', spans: [
+    { s: 0, d: 17.64, fill: C.w, label: 'weights', tip: 'Weights 17.6 ms' },
+    { s: 17.64, d: 1.45, fill: C.a, tip: 'Attention 1.45 ms' },
+    { s: 19.09, d: 5.07, fill: C.o, tip: 'Other 5.1 ms' } ] },
+  { name: '8 rows (expected)', spans: [
+    { s: 0, d: 17.64, fill: C.w, label: 'weights', tip: 'Weights read once for all 8 rows: 17.6 ms (if the matmul stays bandwidth-bound)' },
+    { s: 17.64, d: 11.6, fill: C.a, label: '8x attn', tip: '8 rows x 1.45 ms attention = 11.6 ms' },
+    { s: 29.24, d: 5.07, fill: C.o, label: 'other', tip: 'Other 5.1 ms (could grow a little with rows)' } ] },
+  { name: '8 rows (measured)', spans: [
+    { s: 0, d: 34.31, fill: C.g, op: .45, label: 'what we can explain', dark: true, tip: 'The expected bill: about 34 ms' },
+    { s: 34.31, d: 87.4 - 34.31, fill: 'hatch', label: 'unexplained ~53 ms',
+      tip: 'Measured median inter-token time 87.4 ms. About 53 ms is not explained by E00. Likely suspect: the 4-bit matmul kernel at 8 rows stops being bandwidth-bound. That is R02-C8.' } ] },
+], markers: [{ v: 87.4, label: '87.4 ms measured', end: true }] });
+</script>
+</body></html>

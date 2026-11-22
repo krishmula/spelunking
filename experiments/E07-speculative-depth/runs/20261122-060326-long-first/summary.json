@@ -1,0 +1,434 @@
+{
+  "positive_depth_results": [
+    {
+      "assignment": "short",
+      "winner": 4,
+      "runner_up": 3,
+      "rate": 87.41061435613469,
+      "bootstrap_win_fraction": 0.9994,
+      "paired_margin_ci": [
+        1.6652158219910262,
+        6.778075322847499
+      ]
+    },
+    {
+      "assignment": "long",
+      "winner": 1,
+      "runner_up": 2,
+      "rate": 74.649396028614,
+      "bootstrap_win_fraction": 0.8432,
+      "paired_margin_ci": [
+        -0.6970794057326444,
+        2.2251859583729825
+      ]
+    }
+  ],
+  "depth_results": [
+    {
+      "assignment": "short",
+      "depth": 0,
+      "verify_ms": 93.48570824999999,
+      "verify_delta_ms": -0.5289270000000101,
+      "delta_ci": [
+        -2.7252914999999973,
+        4.300416750000004
+      ],
+      "committed": 8,
+      "tokens_s": 85.54330835879794,
+      "range_tokens_s": [
+        80.33600299406595,
+        91.5007184462916
+      ]
+    },
+    {
+      "assignment": "short",
+      "depth": 1,
+      "verify_ms": 187.582646,
+      "verify_delta_ms": -0.23542725000001496,
+      "delta_ci": [
+        -2.7148435000000006,
+        1.4950212500000077
+      ],
+      "committed": 14,
+      "tokens_s": 74.60647576009865,
+      "range_tokens_s": [
+        71.74572731241443,
+        78.57515754540152
+      ]
+    },
+    {
+      "assignment": "short",
+      "depth": 2,
+      "verify_ms": 202.52063550000003,
+      "verify_delta_ms": -13.804750249999998,
+      "delta_ci": [
+        -15.559656249999975,
+        -11.806239000000005
+      ],
+      "committed": 16,
+      "tokens_s": 78.97656294226348,
+      "range_tokens_s": [
+        76.88624175902821,
+        81.4887913372335
+      ]
+    },
+    {
+      "assignment": "short",
+      "depth": 3,
+      "verify_ms": 216.53962524999997,
+      "verify_delta_ms": -27.39641675,
+      "delta_ci": [
+        -29.38351050000003,
+        -26.53616675000002
+      ],
+      "committed": 18,
+      "tokens_s": 83.0936590068866,
+      "range_tokens_s": [
+        81.66636030359405,
+        85.25886975395957
+      ]
+    },
+    {
+      "assignment": "short",
+      "depth": 4,
+      "verify_ms": 217.23378100000002,
+      "verify_delta_ms": -43.15910425,
+      "delta_ci": [
+        -45.79439599999998,
+        -40.26261475
+      ],
+      "committed": 19,
+      "tokens_s": 87.41061435613469,
+      "range_tokens_s": [
+        81.54740197749649,
+        91.84990735381555
+      ]
+    },
+    {
+      "assignment": "short",
+      "depth": 6,
+      "verify_ms": 276.56683350000003,
+      "verify_delta_ms": -61.49420824999996,
+      "delta_ci": [
+        -62.749093749999986,
+        -58.25235449999997
+      ],
+      "committed": 21,
+      "tokens_s": 75.90774716996268,
+      "range_tokens_s": [
+        73.90913735533931,
+        77.13535147733417
+      ]
+    },
+    {
+      "assignment": "short",
+      "depth": 8,
+      "verify_ms": 286.9595835,
+      "verify_delta_ms": -83.43489575000001,
+      "delta_ci": [
+        -87.17458275000004,
+        -78.51225
+      ],
+      "committed": 22,
+      "tokens_s": 76.64255640971189,
+      "range_tokens_s": [
+        71.42399410163787,
+        78.74185136405796
+      ]
+    },
+    {
+      "assignment": "long",
+      "depth": 0,
+      "verify_ms": 92.29859375,
+      "verify_delta_ms": 0.5289270000000101,
+      "delta_ci": [
+        -4.300416750000004,
+        2.7252914999999973
+      ],
+      "committed": 8,
+      "tokens_s": 86.62229845019226,
+      "range_tokens_s": [
+        80.13968097620472,
+        91.53484874641532
+      ]
+    },
+    {
+      "assignment": "long",
+      "depth": 1,
+      "verify_ms": 187.46560425,
+      "verify_delta_ms": 0.23542725000001496,
+      "delta_ci": [
+        -1.4950212500000077,
+        2.7148435000000006
+      ],
+      "committed": 14,
+      "tokens_s": 74.649396028614,
+      "range_tokens_s": [
+        69.37314991249943,
+        79.96250643385557
+      ]
+    },
+    {
+      "assignment": "long",
+      "depth": 2,
+      "verify_ms": 216.48942725,
+      "verify_delta_ms": 13.804750249999998,
+      "delta_ci": [
+        11.806239000000005,
+        15.559656249999975
+      ],
+      "committed": 16,
+      "tokens_s": 73.87593355890407,
+      "range_tokens_s": [
+        72.16876294822065,
+        76.40056377368026
+      ]
+    },
+    {
+      "assignment": "long",
+      "depth": 3,
+      "verify_ms": 244.45792675,
+      "verify_delta_ms": 27.39641675,
+      "delta_ci": [
+        26.53616675000002,
+        29.38351050000003
+      ],
+      "committed": 18,
+      "tokens_s": 73.60967982414957,
+      "range_tokens_s": [
+        72.38808811171602,
+        75.7051772527424
+      ]
+    },
+    {
+      "assignment": "long",
+      "depth": 4,
+      "verify_ms": 259.21526074999997,
+      "verify_delta_ms": 43.15910425,
+      "delta_ci": [
+        40.26261475,
+        45.79439599999998
+      ],
+      "committed": 19,
+      "tokens_s": 73.27662754797869,
+      "range_tokens_s": [
+        69.76288379443785,
+        76.17213412941348
+      ]
+    },
+    {
+      "assignment": "long",
+      "depth": 6,
+      "verify_ms": 340.14395824999997,
+      "verify_delta_ms": 61.49420824999996,
+      "delta_ci": [
+        58.25235449999997,
+        62.749093749999986
+      ],
+      "committed": 21,
+      "tokens_s": 61.722211560510004,
+      "range_tokens_s": [
+        60.4737748589,
+        64.59702292182914
+      ]
+    },
+    {
+      "assignment": "long",
+      "depth": 8,
+      "verify_ms": 368.01613525,
+      "verify_delta_ms": 83.43489575000001,
+      "delta_ci": [
+        78.51225,
+        87.17458275000004
+      ],
+      "committed": 22,
+      "tokens_s": 59.7665463020915,
+      "range_tokens_s": [
+        56.651713317727726,
+        60.84130898314726
+      ]
+    }
+  ],
+  "sensitivity": [
+    {
+      "assignment": "short",
+      "fixed_ms": 0,
+      "per_depth_ms": 0,
+      "winner": 4,
+      "runner_up": 0,
+      "rate": 87.41061435613469,
+      "bootstrap_win_fraction": 0.8244,
+      "paired_margin_ci": [
+        -1.717221406909438,
+        4.500957367266963
+      ]
+    },
+    {
+      "assignment": "short",
+      "fixed_ms": 5,
+      "per_depth_ms": 0,
+      "winner": 0,
+      "runner_up": 4,
+      "rate": 85.54330835879794,
+      "bootstrap_win_fraction": 0.501,
+      "paired_margin_ci": [
+        -2.503134943210874,
+        3.651292818428203
+      ]
+    },
+    {
+      "assignment": "short",
+      "fixed_ms": 20,
+      "per_depth_ms": 0,
+      "winner": 0,
+      "runner_up": 4,
+      "rate": 85.54330835879794,
+      "bootstrap_win_fraction": 1.0,
+      "paired_margin_ci": [
+        2.981405705047308,
+        8.968137821643388
+      ]
+    },
+    {
+      "assignment": "short",
+      "fixed_ms": 0,
+      "per_depth_ms": 1,
+      "winner": 4,
+      "runner_up": 0,
+      "rate": 85.831120775931,
+      "bootstrap_win_fraction": 0.5804,
+      "paired_margin_ci": [
+        -3.271414361637703,
+        2.8954191171661137
+      ]
+    },
+    {
+      "assignment": "short",
+      "fixed_ms": 0,
+      "per_depth_ms": 5,
+      "winner": 0,
+      "runner_up": 4,
+      "rate": 85.54330835879794,
+      "bootstrap_win_fraction": 1.0,
+      "paired_margin_ci": [
+        2.981405705047308,
+        8.968137821643388
+      ]
+    },
+    {
+      "assignment": "long",
+      "fixed_ms": 0,
+      "per_depth_ms": 0,
+      "winner": 0,
+      "runner_up": 1,
+      "rate": 86.62229845019226,
+      "bootstrap_win_fraction": 1.0,
+      "paired_margin_ci": [
+        8.768786722530749,
+        12.928839149436783
+      ]
+    },
+    {
+      "assignment": "long",
+      "fixed_ms": 5,
+      "per_depth_ms": 0,
+      "winner": 0,
+      "runner_up": 1,
+      "rate": 86.62229845019226,
+      "bootstrap_win_fraction": 1.0,
+      "paired_margin_ci": [
+        10.689702985609316,
+        14.98598517941111
+      ]
+    },
+    {
+      "assignment": "long",
+      "fixed_ms": 20,
+      "per_depth_ms": 0,
+      "winner": 0,
+      "runner_up": 3,
+      "rate": 86.62229845019226,
+      "bootstrap_win_fraction": 1.0,
+      "paired_margin_ci": [
+        15.428536799946663,
+        20.601762202448057
+      ]
+    },
+    {
+      "assignment": "long",
+      "fixed_ms": 0,
+      "per_depth_ms": 1,
+      "winner": 0,
+      "runner_up": 1,
+      "rate": 86.62229845019226,
+      "bootstrap_win_fraction": 1.0,
+      "paired_margin_ci": [
+        9.16021724144899,
+        13.349263710257723
+      ]
+    },
+    {
+      "assignment": "long",
+      "fixed_ms": 0,
+      "per_depth_ms": 5,
+      "winner": 0,
+      "runner_up": 1,
+      "rate": 86.62229845019226,
+      "bootstrap_win_fraction": 1.0,
+      "paired_margin_ci": [
+        10.689702985609316,
+        14.98598517941111
+      ]
+    }
+  ],
+  "acceptance_sensitivity": [
+    {
+      "probability": 0.2,
+      "assignment": "short",
+      "winner": 0,
+      "bootstrap_win_fraction": 1.0
+    },
+    {
+      "probability": 0.2,
+      "assignment": "long",
+      "winner": 0,
+      "bootstrap_win_fraction": 1.0
+    },
+    {
+      "probability": 0.4,
+      "assignment": "short",
+      "winner": 0,
+      "bootstrap_win_fraction": 1.0
+    },
+    {
+      "probability": 0.4,
+      "assignment": "long",
+      "winner": 0,
+      "bootstrap_win_fraction": 1.0
+    },
+    {
+      "probability": 0.6,
+      "assignment": "short",
+      "winner": 0,
+      "bootstrap_win_fraction": 1.0
+    },
+    {
+      "probability": 0.6,
+      "assignment": "long",
+      "winner": 0,
+      "bootstrap_win_fraction": 1.0
+    },
+    {
+      "probability": 0.8,
+      "assignment": "short",
+      "winner": 4,
+      "bootstrap_win_fraction": 1.0
+    },
+    {
+      "probability": 0.8,
+      "assignment": "long",
+      "winner": 0,
+      "bootstrap_win_fraction": 1.0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+00:23:23 b8-cap2k: server up, pool 12416 tokens; {'time': '2026-10-14T00:23:23', 'swap': 'total = 5120.00M  used = 3883.75M  free = 1236.25M  (encrypted)', 'power': "Now drawing from 'AC Power'", 'therm': ''}
+00:56:22 b8-cap2k: 64/64 requests done in 1979 s; other apps 2.89% of GPU {'WindowServer(424)': 2.89}
+00:57:37 b16-cap2k: server up, pool 12400 tokens; {'time': '2026-10-14T00:57:37', 'swap': 'total = 5120.00M  used = 3731.75M  free = 1388.25M  (encrypted)', 'power': "Now drawing from 'AC Power'", 'therm': ''}
+00:57:37 b16-cap2k: WARNING pool is 12400 tokens, E00 had 12416
+01:28:54 b16-cap2k: 64/64 requests done in 1877 s; other apps 3.8% of GPU {'WindowServer(424)': 3.8}
+01:30:09 b8-cap4k: server up, pool 12416 tokens; {'time': '2026-10-14T01:30:08', 'swap': 'total = 5120.00M  used = 3707.75M  free = 1412.25M  (encrypted)', 'power': "Now drawing from 'AC Power'", 'therm': ''}
+02:50:07 b8-cap4k: 64/64 requests done in 4799 s; other apps 3.48% of GPU {'WindowServer(424)': 3.48}
+02:51:22 b16-cap4k: server up, pool 12400 tokens; {'time': '2026-10-14T02:51:22', 'swap': 'total = 5120.00M  used = 3475.75M  free = 1644.25M  (encrypted)', 'power': "Now drawing from 'AC Power'", 'therm': ''}
+02:51:22 b16-cap4k: WARNING pool is 12400 tokens, E00 had 12416
+04:11:58 b16-cap4k: 64/64 requests done in 4836 s; other apps 3.9% of GPU {'WindowServer(424)': 3.9}
+04:12:59 done: OK

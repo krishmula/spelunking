@@ -1,0 +1,48 @@
+{
+ "codex": [
+  {
+   "claim": "At batch-size target 4 with cap 512, fewer than 1 preemption per 100 requests. At target 32 with cap 4,096, more than 10 per 100.",
+   "numbers": {
+    "t32_c4096_preemptions_per_100_gt": 10,
+    "t4_c512_preemptions_per_100_lt": 1
+   },
+   "reason": "Guess. The nominal pool holds 12,416 token slots; 32 prompts of about 1k tokens exceed it."
+  },
+  {
+   "claim": "The chosen victim is tied for least computed in fewer than 80% of decisions.",
+   "numbers": {
+    "victim_least_tied_frac_lt": 0.8
+   },
+   "reason": "Guess. The default rule uses running-list order rather than computed-token count."
+  },
+  {
+   "claim": "At least one pressure configuration has resumed victims with recovery below 0.2 and above 0.8.",
+   "numbers": {
+    "recovery_above": 0.8,
+    "recovery_below": 0.2
+   },
+   "reason": "Guess. Waiting and intervening allocations can differ between victims."
+  }
+ ],
+ "frozen_before_measurement": true,
+ "krishna": {
+  "frequency": {
+   "high_pressure": "more frequent",
+   "low_pressure": "less frequent"
+  },
+  "interpretation": "Recovery is conditional on an observed resumption. The user did not identify specific configuration endpoints. Preserve the qualitative pressure groups when reporting this prediction.",
+  "reason": "The user expects recovery to decrease as pressure increases. No more detailed causal explanation was supplied.",
+  "recorded_date": "2026-10-20",
+  "recovery": {
+   "high_pressure": {
+    "max": 0.6,
+    "min": 0.4
+   },
+   "low_pressure": {
+    "greater_than": 0.6
+   }
+  },
+  "verbatim": "I think for low pressure config, preemptions will be less frequent, and for high pressure, more frequent. Also, I think for low pressure, the recovery is going to be larger, more than 60%, and for high pressure the recovery is going to be less: 40 - 60%",
+  "who": "Krishna"
+ }
+}

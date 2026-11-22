@@ -1,0 +1,40 @@
+{
+ "census": {
+  "common_prefix_hist": {
+   "3": 4088,
+   "4": 758,
+   "5": 85,
+   "6": 8,
+   "7": 8,
+   "8": 3
+  },
+  "length_max": 1045,
+  "length_mean": 1026.29,
+  "length_median": 1022.5,
+  "length_min": 1007,
+  "max_common_prefix_tokens": 8,
+  "max_full_block_shared": 0,
+  "pairs": 4950,
+  "pairs_with_full_block_shared": 0
+ },
+ "chat_template_sha256": "87a2728cb8dc9fe424d624542f6060ec05a1d285ebbec578bb078900e33396b5",
+ "digest": "f201391309237e9c0dd41ca7f54c62c2824417c4fd71741339751f074840bfff",
+ "generator_sha256": "7f91bb950b919903de1eadeedd9759b3b141dc007953224df1b6ce07cc74995d",
+ "length_range": [
+  960,
+  1088
+ ],
+ "length_stats": {
+  "max": 1045,
+  "mean": 1026.29,
+  "median": 1022.5,
+  "min": 1007
+ },
+ "model": "mlx-community/Qwen3-4B-4bit",
+ "seed": 20261020,
+ "size": 100,
+ "target_tokens": 1024,
+ "tokenizer_revision": "4dcb3d101c2a062e5c1d4bb173588c54ea6c4d25",
+ "transformers_version": "5.17.0",
+ "version": "v1"
+}

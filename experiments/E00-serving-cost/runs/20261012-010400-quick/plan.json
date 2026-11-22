@@ -1,0 +1,31 @@
+{
+ "model": "mlx-community/Qwen3-4B-4bit",
+ "server_args": [
+  "--max-model-len",
+  "9216",
+  "--max-num-seqs",
+  "8",
+  "--max-num-batched-tokens",
+  "2048",
+  "--gpu-memory-utilization",
+  "0.38",
+  "--no-enable-prefix-caching",
+  "--seed",
+  "0"
+ ],
+ "seed": 0,
+ "config": {
+  "reps1": 1,
+  "reps2": 1,
+  "soak": 10,
+  "cooldown": 2
+ },
+ "part1": "5 bench passes: ['in1k_c1', 'in8k_c1', 'in1k_c8'] x 1 shuffled, plus drift first and last",
+ "part2": "5 streaming requests: contexts [128, 1024, 2048, 4096, 8192] x 1 shuffled, 256 tokens each",
+ "part3": "weights-only matmuls and a bandwidth test in a fresh process",
+ "estimate_min": 8,
+ "warnings": [
+  "other apps are using 35.9% of the GPU at start: {'WindowServer(424)': 33.6, 'T3 Code (Nightly(47196)': 2.28}"
+ ],
+ "problems_forced": []
+}

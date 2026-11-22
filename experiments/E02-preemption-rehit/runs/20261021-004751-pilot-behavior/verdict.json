@@ -1,0 +1,6 @@
+{
+ "reasons": [
+  "attempt failed: RuntimeError('warmup request failed with HTTP 400')"
+ ],
+ "verdict": "fail"
+}

@@ -1,0 +1,7 @@
+ts	phase	decision	why	evidence	result
+2026-11-17	scope	Open R07	Inspect author-stated assumptions across four catalog topics	constraints.md	Bounded public sample
+2026-11-17	pass1	Kill C4 C5 C6	Adaptive retention, forced drafts and cross-layer plan reuse already have direct implementations	L7 L20 L27	KILL
+2026-11-17	pass2	Narrow C1	Parser-aware retention and error certificates directly address prevention and risk gating	L41 L45 L46	PIVOT
+2026-11-17	pass2	Drop C3	Hopper sorts by default and preparation is shared	L40 L43	KILL
+2026-11-17	pass2	Retain C2 only for attribution	Strong existing shortlist and grammar baselines leave one conditional measurement	L18 L20 L21 L44	MEASURE-FIRST
+2026-11-17	validation	Fix heuristic thresholds before any run	Free-repair ceiling below 5% on either family or cheap baseline captures gain ends direction. Synthetic-only effect pivots. Timed practical gain of at least 5% on both with equivalent output and no repeatable p95 completion regression supports GO.	dossier.md	Unrun

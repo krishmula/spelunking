@@ -1,0 +1,199 @@
+{
+ "attempt": 1,
+ "authority": {
+  "command": "pilot cost-pressure",
+  "granted_at": "2026-10-21T01:10:06-07:00"
+ },
+ "bytes": 617627,
+ "cleanup_failed": false,
+ "elapsed_s": 52.93532216595486,
+ "ended": "2026-10-21T01:21:48.244703",
+ "engine_preemptions": 2.0,
+ "evidence": {
+  "client.jsonl": "d132a3cecc0a7729f0f352a7134a4559d26ecb27c195d7f9186d59926f0fcb1b",
+  "events.jsonl": "6e85aacf80083d4028d93ec68478cb37c46867792e923a65c4e87fd1a94a9c83",
+  "server.log": "741b3905d572e5a92d42ffec7fa5092d8999dcfebb7a7968032fb3051e43542f",
+  "snapshots.jsonl": "8de3f19fba53b6962dbc9c478fe6fb45f88084add19699b2be36acb50140c660"
+ },
+ "execution_outcome": "complete",
+ "execution_reason": null,
+ "logging": true,
+ "machine_after": {
+  "load": "{ 2.96 2.57 2.51 }",
+  "lowpowermode": "lowpowermode         0",
+  "power": "Now drawing from 'AC Power'",
+  "swap": "total = 5120.00M  used = 4222.62M  free = 897.38M  (encrypted)",
+  "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+  "time": "2026-10-21T01:21:48"
+ },
+ "machine_at_start": {
+  "load": "{ 2.29 2.40 2.46 }",
+  "lowpowermode": "lowpowermode         0",
+  "power": "Now drawing from 'AC Power'",
+  "swap": "total = 5120.00M  used = 4222.62M  free = 897.38M  (encrypted)",
+  "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+  "time": "2026-10-21T01:20:54"
+ },
+ "machine_before": {
+  "load": "{ 2.06 2.38 2.45 }",
+  "lowpowermode": "lowpowermode         0",
+  "power": "Now drawing from 'AC Power'",
+  "swap": "total = 5120.00M  used = 4222.62M  free = 897.38M  (encrypted)",
+  "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+  "time": "2026-10-21T01:20:20"
+ },
+ "observed_preemptions": 2,
+ "other_gpu_percent": 0.81,
+ "outcome": "complete",
+ "owned_processes": [
+  [
+   25226,
+   "Wed Oct 21 01:20:20 2026"
+  ],
+  [
+   25268,
+   "Wed Oct 21 01:20:25 2026"
+  ],
+  [
+   25269,
+   "Wed Oct 21 01:20:25 2026"
+  ]
+ ],
+ "pid": 8300,
+ "plan_digest": "b8c11293b7fce10257a3bfb552c5cfb8ee2f6a22838f6c326a936c3c05915822",
+ "pool_blocks": 776,
+ "provenance_digest": "56d02072d0dc68eecdb5e0e26af80b3df027ca86fe80c811736ade5ac5abecd3",
+ "reason": null,
+ "replacement_reason": null,
+ "replaces": null,
+ "requests": 16,
+ "run_id": "p4-on",
+ "runner_start": "Wed Oct 21 01:10:06 2026",
+ "seal_reset": {
+  "success": true
+ },
+ "server_args": [
+  "/Users/krishna/dev/vllm-lab/.venv/bin/vllm",
+  "serve",
+  "mlx-community/Qwen3-4B-4bit",
+  "--port",
+  "8013",
+  "--max-model-len",
+  "9216",
+  "--max-num-batched-tokens",
+  "2048",
+  "--gpu-memory-utilization",
+  "0.38",
+  "--num-gpu-blocks-override",
+  "776",
+  "--block-size",
+  "16",
+  "--enable-prefix-caching",
+  "--async-scheduling",
+  "--scheduling-policy",
+  "fcfs",
+  "--seed",
+  "0",
+  "--max-num-seqs",
+  "16",
+  "--scheduler-cls",
+  "e02.observer.ObservedScheduler"
+ ],
+ "server_env_removed": [
+  "VLLM_USE_V2_MODEL_RUNNER",
+  "VLLM_WORKER_MULTIPROC_METHOD"
+ ],
+ "server_pgid": 25226,
+ "spec": {
+  "cap": 128,
+  "item_order": [
+   82,
+   72,
+   51,
+   58,
+   54,
+   47,
+   49,
+   87,
+   69,
+   53,
+   90,
+   37,
+   52,
+   27,
+   28,
+   34
+  ],
+  "item_seeds": [
+   208806940,
+   1979391687,
+   93332298,
+   516032827,
+   1267649586,
+   590823875,
+   48150718,
+   802818955,
+   1347480292,
+   1747016731,
+   703440185,
+   1611750326,
+   1295129291,
+   2062948005,
+   1618285118,
+   758169097
+  ],
+  "logging": true,
+  "order_in_round": 2,
+  "rep_seed": 11,
+  "requests": 16,
+  "round": 4,
+  "run_id": "p4-on",
+  "target": 16,
+  "workload": "cost-pressure"
+ },
+ "started": "2026-10-21T01:20:20.493205",
+ "stop_report": {
+  "group_identified": true,
+  "killed": [],
+  "pgid": 25226,
+  "survivors": [],
+  "term": [
+   25226,
+   25268,
+   25269
+  ],
+  "unidentified": []
+ },
+ "t_drain_start_ns": 1109902118529041,
+ "validation": {
+  "reasons": [],
+  "status": "complete"
+ },
+ "wall_checkpoint": 1792570881.910076,
+ "wall_ended": 1792570908.2447019,
+ "wall_started": 1792570820.48058,
+ "warmup": {
+  "reason": "last 3 rounds within 3.5% of their median 70.2 tokens/s",
+  "samples": [
+   {
+    "elapsed_s": 7.216422916157171,
+    "round": 1,
+    "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "tokens": 512
+   },
+   {
+    "elapsed_s": 7.290835333056748,
+    "round": 2,
+    "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "tokens": 512
+   },
+   {
+    "elapsed_s": 7.474151541013271,
+    "round": 3,
+    "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "tokens": 512
+   }
+  ],
+  "stable": true
+ }
+}

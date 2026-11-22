@@ -1,0 +1,15 @@
+{
+ "attempt_bytes": 5494707,
+ "cap": 1024,
+ "clients_with_reasoning_field": 0,
+ "digests_checked": 7731,
+ "elapsed_s": 383.8821773750242,
+ "episodes_resumed": 19,
+ "events_bytes": 4145463,
+ "preemptions": 19,
+ "reasons": [],
+ "requests": 24,
+ "snapshots_checked": 51,
+ "verdict": "pass",
+ "wall_s": 413.12087392807007
+}

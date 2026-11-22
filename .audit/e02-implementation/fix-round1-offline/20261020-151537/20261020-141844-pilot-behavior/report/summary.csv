@@ -1,0 +1,56 @@
+target,cap,metric,values,mean,sd,median,min,max,n
+16,1024,submitted,24,24,undefined,24,24,24,1
+16,1024,completed,24,24,undefined,24,24,24,1
+16,1024,failed,0,0,undefined,0,0,0,1
+16,1024,unfinished,0,0,undefined,0,0,0,1
+16,1024,cap_hit_rate,1,1,undefined,1,1,1,1
+16,1024,prompt_tokens_mean,1024.25,1024.25,undefined,1024.25,1024.25,1024.25,1
+16,1024,output_tokens_mean,1024,1024,undefined,1024,1024,1024,1
+16,1024,output_tokens_median,1024,1024,undefined,1024,1024,1024,1
+16,1024,preemptions,19,19,undefined,19,19,19,1
+16,1024,preemptions_per_100_submitted,79.1667,79.1667,undefined,79.1667,79.1667,79.1667,1
+16,1024,requests_preempted_frac,0.541667,0.541667,undefined,0.541667,0.541667,0.541667,1
+16,1024,preemptions_per_preempted_request,1.46154,1.46154,undefined,1.46154,1.46154,1.46154,1
+16,1024,victim_least_tied_frac,0.421053,0.421053,undefined,0.421053,0.421053,0.421053,1
+16,1024,decisions_with_ties,0,0,undefined,0,0,0,1
+16,1024,eligible_candidates_median,8,8,undefined,8,8,8,1
+16,1024,stock_rule_violations,0,0,undefined,0,0,0,1
+16,1024,episodes,19,19,undefined,19,19,19,1
+16,1024,episodes_resumed,19,19,undefined,19,19,19,1
+16,1024,episodes_unresolved,0,0,undefined,0,0,0,1
+16,1024,recovery_fraction_median,0.0114943,0.0114943,undefined,0.0114943,0.0114943,0.0114943,1
+16,1024,recovery_fraction_mean,0.18493,0.18493,undefined,0.18493,0.18493,0.18493,1
+16,1024,recovery_fraction_min,0,0,undefined,0,0,0,1
+16,1024,recovery_fraction_max,0.758037,0.758037,undefined,0.758037,0.758037,0.758037,1
+16,1024,recovered_original_freed_tokens,4096,4096,undefined,4096,4096,4096,1
+16,1024,recovered_original_shared_tokens,0,0,undefined,0,0,0,1
+16,1024,recovered_equivalent_tokens,0,0,undefined,0,0,0,1
+16,1024,recovery_unknown_tokens,0,0,undefined,0,0,0,1
+16,1024,missing_tokens,18057,18057,undefined,18057,18057,18057,1
+16,1024,reprefill_tokens,18057,18057,undefined,18057,18057,18057,1
+16,1024,discarded_tokens,1032,1032,undefined,1032,1032,1032,1
+16,1024,batch_size_time_weighted,7.27032,7.27032,undefined,7.27032,7.27032,7.27032,1
+16,1024,batch_size_decode_time_weighted,7.26258,7.26258,undefined,7.26258,7.26258,7.26258,1
+16,1024,batch_interval_max_s,4.19817,4.19817,undefined,4.19817,4.19817,4.19817,1
+16,1024,steps,3851,3851,undefined,3851,3851,3851,1
+16,1024,steps_mixed,26,26,undefined,26,26,26,1
+16,1024,steps_prefill_only,1,1,undefined,1,1,1,1
+16,1024,steps_decode_only,3824,3824,undefined,3824,3824,3824,1
+16,1024,ttft_median_s,66.1024,66.1024,undefined,66.1024,66.1024,66.1024,1
+16,1024,ttft_p90_s,240.851,not aggregated,not aggregated,not aggregated,240.851,240.851,1
+16,1024,ttft_p99_s,241.07,not aggregated,not aggregated,not aggregated,241.07,241.07,1
+16,1024,tpot_median_s,0.208688,0.208688,undefined,0.208688,0.208688,0.208688,1
+16,1024,tpot_p90_s,0.37151,not aggregated,not aggregated,not aggregated,0.37151,0.37151,1
+16,1024,e2e_median_s,382.518,382.518,undefined,382.518,382.518,382.518,1
+16,1024,e2e_p99_s,562.076,not aggregated,not aggregated,not aggregated,562.076,562.076,1
+16,1024,throughput_interval_s,671.381,671.381,undefined,671.381,671.381,671.381,1
+16,1024,output_tokens_per_s,36.6051,36.6051,undefined,36.6051,36.6051,36.6051,1
+16,1024,requests_per_s,0.0357472,0.0357472,undefined,0.0357472,0.0357472,0.0357472,1
+16,1024,stalled_requests,13,13,undefined,13,13,13,1
+16,1024,alloc_failures,2814,2814,undefined,2814,2814,2814,1
+16,1024,hint_divergences,0,0,undefined,0,0,0,1
+16,1024,works_unacknowledged,0,0,undefined,0,0,0,1
+16,1024,snapshots_checked,51,51,undefined,51,51,51,1
+16,1024,digests_checked,7731,7731,undefined,7731,7731,7731,1
+16,1024,pooled_ttft_s,,109.309,101.085,66.1024,4.73141,241.07,24
+16,1024,pooled_tpot_s,,0.243661,0.0730806,0.208688,0.170565,0.410559,24

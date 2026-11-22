@@ -1,0 +1,61 @@
+{
+ "bandwidth_gbs_median": 132.2,
+ "bandwidth_gbs_max": 133.4,
+ "kinds": {
+  "down_proj": {
+   "count": 36,
+   "mb": 504.3,
+   "ms_median": 4.198,
+   "ms_min": 4.147
+  },
+  "gate_proj": {
+   "count": 36,
+   "mb": 504.3,
+   "ms_median": 4.043,
+   "ms_min": 3.978
+  },
+  "k_proj": {
+   "count": 36,
+   "mb": 53.1,
+   "ms_median": 0.615,
+   "ms_min": 0.597
+  },
+  "lm_head": {
+   "count": 1,
+   "mb": 218.8,
+   "ms_median": 1.85,
+   "ms_min": 1.793
+  },
+  "o_proj": {
+   "count": 36,
+   "mb": 212.3,
+   "ms_median": 1.805,
+   "ms_min": 1.763
+  },
+  "q_proj": {
+   "count": 36,
+   "mb": 212.3,
+   "ms_median": 1.809,
+   "ms_min": 1.784
+  },
+  "up_proj": {
+   "count": 36,
+   "mb": 504.3,
+   "ms_median": 4.072,
+   "ms_min": 3.998
+  },
+  "v_proj": {
+   "count": 36,
+   "mb": 53.1,
+   "ms_median": 0.626,
+   "ms_min": 0.608
+  }
+ },
+ "all": {
+  "count": 253,
+  "mb": 2262.5,
+  "ms_median": 17.635,
+  "ms_min": 17.54
+ },
+ "floor_ms_at_best_bandwidth": 16.96
+}

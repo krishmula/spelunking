@@ -1,0 +1,194 @@
+{
+ "attempt": 1,
+ "authority": {
+  "command": "pilot cost-pressure",
+  "granted_at": "2026-10-21T01:10:06-07:00"
+ },
+ "bytes": 36662,
+ "cleanup_failed": false,
+ "elapsed_s": 53.143067416967824,
+ "ended": "2026-10-21T01:24:45.163453",
+ "engine_preemptions": 2.0,
+ "evidence": {
+  "client.jsonl": "bef09dd8cc9f130844dac3b22059f3690eac6304e92316e03a59197290e10935",
+  "server.log": "34c798505526f6655ef736385083ab77865dea13ab0bdf1932d25fc5c52f2f56"
+ },
+ "execution_outcome": "complete",
+ "execution_reason": null,
+ "logging": false,
+ "machine_after": {
+  "load": "{ 2.71 2.62 2.54 }",
+  "lowpowermode": "lowpowermode         0",
+  "power": "Now drawing from 'AC Power'",
+  "swap": "total = 5120.00M  used = 4222.62M  free = 897.38M  (encrypted)",
+  "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+  "time": "2026-10-21T01:24:45"
+ },
+ "machine_at_start": {
+  "load": "{ 3.00 2.67 2.55 }",
+  "lowpowermode": "lowpowermode         0",
+  "power": "Now drawing from 'AC Power'",
+  "swap": "total = 5120.00M  used = 4222.62M  free = 897.38M  (encrypted)",
+  "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+  "time": "2026-10-21T01:23:51"
+ },
+ "machine_before": {
+  "load": "{ 2.71 2.59 2.52 }",
+  "lowpowermode": "lowpowermode         0",
+  "power": "Now drawing from 'AC Power'",
+  "swap": "total = 5120.00M  used = 4222.62M  free = 897.38M  (encrypted)",
+  "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+  "time": "2026-10-21T01:23:17"
+ },
+ "other_gpu_percent": 0.82,
+ "outcome": "complete",
+ "owned_processes": [
+  [
+   30061,
+   "Wed Oct 21 01:23:17 2026"
+  ],
+  [
+   30103,
+   "Wed Oct 21 01:23:22 2026"
+  ],
+  [
+   30104,
+   "Wed Oct 21 01:23:22 2026"
+  ]
+ ],
+ "pid": 8300,
+ "plan_digest": "b8c11293b7fce10257a3bfb552c5cfb8ee2f6a22838f6c326a936c3c05915822",
+ "pool_blocks": 776,
+ "provenance_digest": "56d02072d0dc68eecdb5e0e26af80b3df027ca86fe80c811736ade5ac5abecd3",
+ "reason": null,
+ "replacement_reason": null,
+ "replaces": null,
+ "requests": 16,
+ "run_id": "p5-off",
+ "runner_start": "Wed Oct 21 01:10:06 2026",
+ "seal_reset": {
+  "success": true
+ },
+ "server_args": [
+  "/Users/krishna/dev/vllm-lab/.venv/bin/vllm",
+  "serve",
+  "mlx-community/Qwen3-4B-4bit",
+  "--port",
+  "8013",
+  "--max-model-len",
+  "9216",
+  "--max-num-batched-tokens",
+  "2048",
+  "--gpu-memory-utilization",
+  "0.38",
+  "--num-gpu-blocks-override",
+  "776",
+  "--block-size",
+  "16",
+  "--enable-prefix-caching",
+  "--async-scheduling",
+  "--scheduling-policy",
+  "fcfs",
+  "--seed",
+  "0",
+  "--max-num-seqs",
+  "16"
+ ],
+ "server_env_removed": [
+  "VLLM_USE_V2_MODEL_RUNNER",
+  "VLLM_WORKER_MULTIPROC_METHOD"
+ ],
+ "server_pgid": 30061,
+ "spec": {
+  "cap": 128,
+  "item_order": [
+   82,
+   72,
+   51,
+   58,
+   54,
+   47,
+   49,
+   87,
+   69,
+   53,
+   90,
+   37,
+   52,
+   27,
+   28,
+   34
+  ],
+  "item_seeds": [
+   208806940,
+   1979391687,
+   93332298,
+   516032827,
+   1267649586,
+   590823875,
+   48150718,
+   802818955,
+   1347480292,
+   1747016731,
+   703440185,
+   1611750326,
+   1295129291,
+   2062948005,
+   1618285118,
+   758169097
+  ],
+  "logging": false,
+  "order_in_round": 2,
+  "rep_seed": 11,
+  "requests": 16,
+  "round": 5,
+  "run_id": "p5-off",
+  "target": 16,
+  "workload": "cost-pressure"
+ },
+ "started": "2026-10-21T01:23:17.052408",
+ "stop_report": {
+  "group_identified": true,
+  "killed": [],
+  "pgid": 30061,
+  "survivors": [],
+  "term": [
+   30061,
+   30103,
+   30104
+  ],
+  "unidentified": []
+ },
+ "t_drain_start_ns": 1110078751415166,
+ "validation": {
+  "reasons": [],
+  "status": "complete"
+ },
+ "wall_checkpoint": 1792571058.544978,
+ "wall_ended": 1792571085.1634529,
+ "wall_started": 1792570997.0375822,
+ "warmup": {
+  "reason": "last 3 rounds within 1.5% of their median 69.7 tokens/s",
+  "samples": [
+   {
+    "elapsed_s": 7.277756958967075,
+    "round": 1,
+    "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "tokens": 512
+   },
+   {
+    "elapsed_s": 7.388551749987528,
+    "round": 2,
+    "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "tokens": 512
+   },
+   {
+    "elapsed_s": 7.344471125165001,
+    "round": 3,
+    "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "tokens": 512
+   }
+  ],
+  "stable": true
+ }
+}

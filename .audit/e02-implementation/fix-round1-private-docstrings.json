@@ -1,0 +1,62 @@
+[
+  {
+    "file": "e02/corpus.py",
+    "symbol": null,
+    "line": 1
+  },
+  {
+    "file": "e02/corpus.py",
+    "symbol": "_create_exclusive",
+    "line": 386
+  },
+  {
+    "file": "e02/observer.py",
+    "symbol": "_seal",
+    "line": 510
+  },
+  {
+    "file": "tests/pilot_fixture.py",
+    "symbol": null,
+    "line": 1
+  },
+  {
+    "file": "tests/test_evidence.py",
+    "symbol": null,
+    "line": 1
+  },
+  {
+    "file": "tests/test_history_metrics.py",
+    "symbol": null,
+    "line": 1
+  },
+  {
+    "file": "tests/test_integrity.py",
+    "symbol": null,
+    "line": 1
+  },
+  {
+    "file": "tests/test_lifecycle.py",
+    "symbol": null,
+    "line": 1
+  },
+  {
+    "file": "tests/test_replay.py",
+    "symbol": null,
+    "line": 1
+  },
+  {
+    "file": "tests/test_report.py",
+    "symbol": null,
+    "line": 1
+  },
+  {
+    "file": "tests/test_sweep.py",
+    "symbol": null,
+    "line": 1
+  },
+  {
+    "file": "tests/test_twin.py",
+    "symbol": null,
+    "line": 1
+  }
+]

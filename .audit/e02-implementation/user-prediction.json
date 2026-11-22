@@ -1,0 +1,9 @@
+{
+  "who": "Krishna",
+  "recorded_date": "2026-10-20",
+  "verbatim": "I think for low pressure config, preemptions will be less frequent, and for high pressure, more frequent. Also, I think for low pressure, the recovery is going to be larger, more than 60%, and for high pressure the recovery is going to be less: 40 - 60%",
+  "frequency": {"low_pressure": "less frequent", "high_pressure": "more frequent"},
+  "recovery": {"low_pressure": {"greater_than": 0.6}, "high_pressure": {"min": 0.4, "max": 0.6}},
+  "reason": "The user expects recovery to decrease as pressure increases. No more detailed causal explanation was supplied.",
+  "interpretation": "Recovery is conditional on an observed resumption. The user did not identify specific configuration endpoints. Preserve the qualitative pressure groups when reporting this prediction."
+}

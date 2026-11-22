@@ -1,0 +1,181 @@
+{
+ "median_delta": {
+  "throughput": -0.0036245534933170287,
+  "tpot": 0.00033592161898576833
+ },
+ "off_relative_range": {
+  "throughput": 0.04240809625594773,
+  "tpot": 0.0366126842623008
+ },
+ "paired_deltas": {
+  "throughput": [
+   0.07531099179037537,
+   -0.01999074168596615,
+   0.0008263492601476852,
+   -0.0051632463816195795,
+   -0.0036245534933170287
+  ],
+  "tpot": [
+   -0.04929862787827988,
+   0.02458930841256457,
+   -0.005089083177882703,
+   0.011317963368988604,
+   0.00033592161898576833
+  ]
+ },
+ "reasons": [],
+ "rule": "Pass when the median paired change in output-token throughput and in median TPOT, logging on versus off, is within 5%, and the unobserved runs' range is within 10% of their median for both metrics. Fail when the median paired change exceeds 5% in the costly direction and at least 4 of 5 pairs agree. Otherwise inconclusive. Every run must revalidate complete from its raw evidence, with all requests finished; the pressure workload must preempt on both sides, and each observed run's engine counter must equal its history.",
+ "runs": [
+  {
+   "bytes": 452349,
+   "elapsed_s": 37.7631450840272,
+   "load": "{ 3.14 2.97 2.71 }",
+   "logging": true,
+   "observed_preemptions": 0,
+   "other_gpu": 0.84,
+   "pair": 1,
+   "preemptions": 0,
+   "run_id": "p1-on",
+   "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+   "throughput": 54.23418043087733,
+   "tpot": 0.05723369832421875,
+   "warmup_stable": true
+  },
+  {
+   "bytes": 31332,
+   "elapsed_s": 40.607171749928966,
+   "load": "{ 2.80 2.89 2.69 }",
+   "logging": false,
+   "observed_preemptions": null,
+   "other_gpu": 0.53,
+   "pair": 1,
+   "preemptions": 0,
+   "run_id": "p1-off",
+   "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+   "throughput": 50.435809588980675,
+   "tpot": 0.06020155224609375,
+   "warmup_stable": true
+  },
+  {
+   "bytes": 31239,
+   "elapsed_s": 40.34860374988057,
+   "load": "{ 2.86 2.86 2.69 }",
+   "logging": false,
+   "observed_preemptions": null,
+   "other_gpu": 0.5,
+   "pair": 2,
+   "preemptions": 0,
+   "run_id": "p2-off",
+   "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+   "throughput": 50.75892309447226,
+   "tpot": 0.06024596020507812,
+   "warmup_stable": true
+  },
+  {
+   "bytes": 451953,
+   "elapsed_s": 41.17170908395201,
+   "load": "{ 2.40 2.71 2.65 }",
+   "logging": true,
+   "observed_preemptions": 0,
+   "other_gpu": 0.87,
+   "pair": 2,
+   "preemptions": 0,
+   "run_id": "p2-on",
+   "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+   "throughput": 49.74421457463284,
+   "tpot": 0.061727366701171876,
+   "warmup_stable": true
+  },
+  {
+   "bytes": 452042,
+   "elapsed_s": 41.548962792148814,
+   "load": "{ 2.15 2.55 2.59 }",
+   "logging": true,
+   "observed_preemptions": 0,
+   "other_gpu": 0.57,
+   "pair": 3,
+   "preemptions": 0,
+   "run_id": "p3-on",
+   "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+   "throughput": 49.29249247699677,
+   "tpot": 0.06154936279296875,
+   "warmup_stable": true
+  },
+  {
+   "bytes": 31329,
+   "elapsed_s": 41.583369249943644,
+   "load": "{ 2.29 2.52 2.57 }",
+   "logging": false,
+   "observed_preemptions": null,
+   "other_gpu": 0.57,
+   "pair": 3,
+   "preemptions": 0,
+   "run_id": "p3-off",
+   "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+   "throughput": 49.25179329404729,
+   "tpot": 0.06186419482617188,
+   "warmup_stable": true
+  },
+  {
+   "bytes": 31246,
+   "elapsed_s": 41.61898645781912,
+   "load": "{ 2.37 2.47 2.54 }",
+   "logging": false,
+   "observed_preemptions": null,
+   "other_gpu": 0.6,
+   "pair": 4,
+   "preemptions": 0,
+   "run_id": "p4-off",
+   "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+   "throughput": 49.20972231533978,
+   "tpot": 0.061845850830078125,
+   "warmup_stable": true
+  },
+  {
+   "bytes": 451903,
+   "elapsed_s": 41.83503375016153,
+   "load": "{ 2.90 2.58 2.58 }",
+   "logging": true,
+   "observed_preemptions": 0,
+   "other_gpu": 0.66,
+   "pair": 4,
+   "preemptions": 0,
+   "run_id": "p4-on",
+   "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+   "throughput": 48.9556403946546,
+   "tpot": 0.06254581990429688,
+   "warmup_stable": true
+  },
+  {
+   "bytes": 451903,
+   "elapsed_s": 42.23336570803076,
+   "load": "{ 2.61 2.53 2.56 }",
+   "logging": true,
+   "observed_preemptions": 0,
+   "other_gpu": 0.58,
+   "pair": 5,
+   "preemptions": 0,
+   "run_id": "p5-on",
+   "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+   "throughput": 48.49384038517055,
+   "tpot": 0.062486878499999995,
+   "warmup_stable": true
+  },
+  {
+   "bytes": 31194,
+   "elapsed_s": 42.08033408294432,
+   "load": "{ 2.41 2.47 2.53 }",
+   "logging": false,
+   "observed_preemptions": null,
+   "other_gpu": 0.56,
+   "pair": 5,
+   "preemptions": 0,
+   "run_id": "p5-off",
+   "therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+   "throughput": 48.67024830368026,
+   "tpot": 0.06246589485546875,
+   "warmup_stable": true
+  }
+ ],
+ "verdict": "pass"
+}
